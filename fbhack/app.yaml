@@ -6,5 +6,5 @@ handlers:
 - url: /.*
   script: auto
 
-env_cariables:
+env_variables:
   DJANGO_SETTINGS_MODULE: fbhack.settings.production
