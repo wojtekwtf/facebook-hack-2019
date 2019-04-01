@@ -107,4 +107,4 @@ venv.bak/
 .vscode/
 
 # dont look at credentials
-credentials.json
+credentials.py
