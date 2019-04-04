@@ -14,4 +14,4 @@ DATABASES = {
     }
 }
 
-ALLOWED_HOSTS = ['facebook-hack-2019.appspot.com']
+ALLOWED_HOSTS = ['facebook-hack-2019.appspot.com', 'fbhack.wkulikowski.com']
