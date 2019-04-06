@@ -1,0 +1,21 @@
+{% extends "jobber/index.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+<!--/ Intro Skew Star /-->
+  
+  <div id="home" class="intro route bg-image" style="background-image: url('{% static 'jobber/img/intro-bg.jpg' %}')">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="intro-title mb-4">Your future job is {{job}}</h1>
+          AND HERE IS YOUR PATH...
+          
+        </div>
+      </div>
+    </div>
+  </div>
+    
+{% endblock content %}
