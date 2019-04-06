@@ -1,7 +1,8 @@
 from django.shortcuts import render, redirect
 from jobber.models import Job
 #from deep_person.auto import is_dying
-
+from deep_person.stable import sentence_mean
+from deep_person.l1 import l1_score, ref
 
 
 def home(request):
@@ -24,8 +25,8 @@ def check_job(request, context):
     return render(request,'jobber/jobfinder.html',context)
 
 def get_job_from_tags(text_to_analize):
-    # CODE
-    return 'Developer'
+    v1 = sentence_mean(text_to_analize)
+    return l1_score(v1, ref)
 
 
 def find_job(request):
@@ -34,13 +35,14 @@ def find_job(request):
         for text in range(3):
             text_to_analize+= " "+str(request.POST[f'job{text}'])
         future_job = get_job_from_tags(text_to_analize)
-        #return redirect('recommendation', job=future_job)
         return recommend_job(request, future_job)
     return render(request,'jobber/check.html')
 
 def recommend_job(request, future_job):
-    print(request)
-    print(future_job)
-    return render(request,'jobber/recommend.html')
+    context = {
+            'job': future_job,
+            'links': 'link'
+        }
+    return render(request,'jobber/recommend.html', context)
 
 # Create your views here.

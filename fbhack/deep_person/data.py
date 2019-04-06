@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import tensorflow.keras.backend as K
 
-from model import get_corpus_word2vec
-from model import get_tokenized_corpus
+from deep_person.model import get_corpus_word2vec
+from  deep_person.model import get_tokenized_corpus
 
 train_size = 7000
 test_size  = 2500

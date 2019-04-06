@@ -7,7 +7,7 @@ def hash_md5(data:object, sample_seed:int=123456):
 import os.path, multiprocessing
 from gensim.models.word2vec import Word2Vec
 
-model_word2vec = 'model/word2vec'
+model_word2vec = 'deep_person/model/word2vec'
 
 def get_corpus_word2vec(tokenized_corpus:list,
         window_size:int=10, vector_size:int=512):
@@ -35,7 +35,7 @@ import tensorflow.keras.backend as K
 __tkr = RegexpTokenizer('[a-zA-Z0-9@]+')
 __stemmer = LancasterStemmer()
 
-model_tokenized_corpus = 'model/tokenized_corpus'
+model_tokenized_corpus = 'deep_person/model/tokenized_corpus'
 
 def __nltk_tokens(text:str):
     return [__stemmer.stem(t) for t in __tkr.tokenize(text)
@@ -89,7 +89,7 @@ Flatten       = tf.keras.layers.Flatten
 Conv1D        = tf.keras.layers.Conv1D
 Adam          = tf.keras.optimizers.Adam
 
-model_deep_personality = 'model/deep_personality'
+model_deep_personality = 'deep_person/model/deep_personality'
 
 def DeepPersonality(max_length:int=20, vector_size:int=512):
     model = Sequential()

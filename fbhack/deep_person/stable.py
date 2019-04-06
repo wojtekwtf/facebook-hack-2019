@@ -53,14 +53,14 @@
 #                       let say 20 jobs
 # +(9) building habits? / or something
 
-import session
+import deep_person.session
 
 from glob import glob
 
-from model import str2vec
-from model import DeepPersonality
-from model import model_deep_personality
-from data  import get_vec4tok, dataset_mypersonality
+from deep_person.model import str2vec
+from deep_person.model import DeepPersonality
+from deep_person.model import model_deep_personality
+from deep_person.data  import get_vec4tok, dataset_mypersonality
 
 COLUMNS = ["cEXT", "cNEU", "cAGR", "cCON", "cOPN"]
 
@@ -101,10 +101,10 @@ from pprint import pprint
 # https://github.com/Microsoft/Recommenders
 
 TEXT_1 = "Hi! I am very happy! What do you think? Is it good?"
-pprint(predict_for_our_models(TEXT_1))
+
 
 TEXT_2 = "I don't like going outside, it's boring in general."
-pprint(predict_for_our_models(TEXT_2))
+
 
 # FIXME: something wrong with tagging?
 """
@@ -155,10 +155,6 @@ res = sentence_mean(arr)
 pprint(res)
 """
 
-pprint(txt)
-pprint(sentence_mean(txt))
-
-pprint(sentence_mean(input(">> ")))
 
 # from paper
 """
