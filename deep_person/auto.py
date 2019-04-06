@@ -46,7 +46,7 @@ print(df1.head())
 
 import math
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 def sigmoid(x):
     return 1 / (1 + math.exp(-x))
@@ -78,10 +78,10 @@ def analyze_by_name(name:str):
     print(np.arctanh(prob))
 
     X, Y = simulate(E1, prob, alpha=0.95, beta=0.15)
-    plt.plot(X, Y)
-    plt.xlabel('Year')
-    plt.ylabel('Employment')
-    plt.show()
+    #plt.plot(X, Y)
+    #plt.xlabel('Year')
+    #plt.ylabel('Employment')
+    #plt.show()
 
     """
     X, Y = simulate(E2, prob, alpha=0.93, beta=0.15)
