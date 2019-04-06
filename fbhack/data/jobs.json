@@ -1,0 +1,2810 @@
+[
+ {
+   "Job": "Chief Executives",
+   "Probability": 0.015
+ },
+ {
+   "Job": "General and Operations Managers",
+   "Probability": 0.16
+ },
+ {
+   "Job": "Advertising and Promotions Managers",
+   "Probability": 0.039
+ },
+ {
+   "Job": "Marketing Managers",
+   "Probability": 0.014
+ },
+ {
+   "Job": "Sales Managers",
+   "Probability": 0.013
+ },
+ {
+   "Job": "Public Relations and Fundraising Managers",
+   "Probability": 0.015
+ },
+ {
+   "Job": "Administrative Services Managers",
+   "Probability": 0.73
+ },
+ {
+   "Job": "Computer and Information Systems Managers",
+   "Probability": 0.035
+ },
+ {
+   "Job": "Financial Managers",
+   "Probability": 0.069
+ },
+ {
+   "Job": "Industrial Production Managers",
+   "Probability": 0.03
+ },
+ {
+   "Job": "Purchasing Managers",
+   "Probability": 0.03
+ },
+ {
+   "Job": "Transportation; Storage; and Distribution Managers",
+   "Probability": 0.59
+ },
+ {
+   "Job": "Compensation and Benefits Managers",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Human Resources Managers",
+   "Probability": 0.0055
+ },
+ {
+   "Job": "Training and Development Managers",
+   "Probability": 0.0063
+ },
+ {
+   "Job": "Farmers; Ranchers; and Other Agricultural Managers",
+   "Probability": 0.047
+ },
+ {
+   "Job": "Construction Managers",
+   "Probability": 0.071
+ },
+ {
+   "Job": "Education Administrators; Preschool and Childcare Center/Program",
+   "Probability": 0.015
+ },
+ {
+   "Job": "Education Administrators; Elementary and Secondary School",
+   "Probability": 0.0046
+ },
+ {
+   "Job": "Education Administrators; Postsecondary",
+   "Probability": 0.01
+ },
+ {
+   "Job": "Architectural and Engineering Managers",
+   "Probability": 0.017
+ },
+ {
+   "Job": "Food Service Managers",
+   "Probability": 0.083
+ },
+ {
+   "Job": "Gaming Managers",
+   "Probability": 0.091
+ },
+ {
+   "Job": "Lodging Managers",
+   "Probability": 0.0039
+ },
+ {
+   "Job": "Medical and Health Services Managers",
+   "Probability": 0.0073
+ },
+ {
+   "Job": "Natural Sciences Managers",
+   "Probability": 0.018
+ },
+ {
+   "Job": "Postmasters and Mail Superintendents",
+   "Probability": 0.75
+ },
+ {
+   "Job": "Property; Real Estate; and Community Association Managers",
+   "Probability": 0.81
+ },
+ {
+   "Job": "Social and Community Service Managers",
+   "Probability": 0.0067
+ },
+ {
+   "Job": "Emergency Management Directors",
+   "Probability": 0.003
+ },
+ {
+   "Job": "Managers; All Other",
+   "Probability": 0.25
+ },
+ {
+   "Job": "Agents and Business Managers of Artists; Performers; and Athletes",
+   "Probability": 0.24
+ },
+ {
+   "Job": "Buyers and Purchasing Agents; Farm Products",
+   "Probability": 0.87
+ },
+ {
+   "Job": "Wholesale and Retail Buyers; Except Farm Products",
+   "Probability": 0.29
+ },
+ {
+   "Job": "Purchasing Agents; Except Wholesale; Retail; and Farm Products",
+   "Probability": 0.77
+ },
+ {
+   "Job": "Claims Adjusters; Examiners; and Investigators",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Insurance Appraisers; Auto Damage",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Compliance Officers",
+   "Probability": 0.08
+ },
+ {
+   "Job": "Cost Estimators",
+   "Probability": 0.57
+ },
+ {
+   "Job": "Farm Labor Contractors",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Human Resources; Training; and Labor Relations Specialists; All Other",
+   "Probability": 0.31
+ },
+ {
+   "Job": "Logisticians",
+   "Probability": 0.012
+ },
+ {
+   "Job": "Management Analysts",
+   "Probability": 0.13
+ },
+ {
+   "Job": "Meeting; Convention; and Event Planners",
+   "Probability": 0.037
+ },
+ {
+   "Job": "Compensation; Benefits; and Job Analysis Specialists",
+   "Probability": 0.47
+ },
+ {
+   "Job": "Training and Development Specialists",
+   "Probability": 0.014
+ },
+ {
+   "Job": "Market Research Analysts and Marketing Specialists",
+   "Probability": 0.61
+ },
+ {
+   "Job": "Business Operations Specialists; All Other",
+   "Probability": 0.23
+ },
+ {
+   "Job": "Accountants and Auditors",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Appraisers and Assessors of Real Estate",
+   "Probability": 0.9
+ },
+ {
+   "Job": "Budget Analysts",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Credit Analysts",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Financial Analysts",
+   "Probability": 0.23
+ },
+ {
+   "Job": "Personal Financial Advisors",
+   "Probability": 0.58
+ },
+ {
+   "Job": "Insurance Underwriters",
+   "Probability": 0.99
+ },
+ {
+   "Job": "Financial Examiners",
+   "Probability": 0.17
+ },
+ {
+   "Job": "Credit Counselors",
+   "Probability": 0.04
+ },
+ {
+   "Job": "Loan Officers",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Tax Examiners and Collectors; and Revenue Agents",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Tax Preparers",
+   "Probability": 0.99
+ },
+ {
+   "Job": "Financial Specialists; All Other",
+   "Probability": 0.33
+ },
+ {
+   "Job": "Computer and Information Research Scientists",
+   "Probability": 0.015
+ },
+ {
+   "Job": "Computer Systems Analysts",
+   "Probability": 0.0065
+ },
+ {
+   "Job": "Computer Programmers",
+   "Probability": 0.48
+ },
+ {
+   "Job": "Software Developers; Applications",
+   "Probability": 0.042
+ },
+ {
+   "Job": "Software Developers; Systems Software",
+   "Probability": 0.13
+ },
+ {
+   "Job": "Database Administrators",
+   "Probability": 0.03
+ },
+ {
+   "Job": "Network and Computer Systems Administrators",
+   "Probability": 0.03
+ },
+ {
+   "Job": "Computer Support Specialists",
+   "Probability": 0.65
+ },
+ {
+   "Job": "Information Security Analysts; Web Developers; and Computer Network Architects",
+   "Probability": 0.21
+ },
+ {
+   "Job": "Computer Occupations; All Other",
+   "Probability": 0.22
+ },
+ {
+   "Job": "Actuaries",
+   "Probability": 0.21
+ },
+ {
+   "Job": "Mathematicians",
+   "Probability": 0.047
+ },
+ {
+   "Job": "Operations Research Analysts",
+   "Probability": 0.035
+ },
+ {
+   "Job": "Statisticians",
+   "Probability": 0.22
+ },
+ {
+   "Job": "Mathematical Technicians",
+   "Probability": 0.99
+ },
+ {
+   "Job": "Architects; Except Landscape and Naval",
+   "Probability": 0.018
+ },
+ {
+   "Job": "Landscape Architects",
+   "Probability": 0.045
+ },
+ {
+   "Job": "Cartographers and Photogrammetrists",
+   "Probability": 0.88
+ },
+ {
+   "Job": "Surveyors",
+   "Probability": 0.38
+ },
+ {
+   "Job": "Aerospace Engineers",
+   "Probability": 0.017
+ },
+ {
+   "Job": "Agricultural Engineers",
+   "Probability": 0.49
+ },
+ {
+   "Job": "Biomedical Engineers",
+   "Probability": 0.037
+ },
+ {
+   "Job": "Chemical Engineers",
+   "Probability": 0.017
+ },
+ {
+   "Job": "Civil Engineers",
+   "Probability": 0.019
+ },
+ {
+   "Job": "Computer Hardware Engineers",
+   "Probability": 0.22
+ },
+ {
+   "Job": "Electrical Engineers",
+   "Probability": 0.1
+ },
+ {
+   "Job": "Electronics Engineers; Except Computer",
+   "Probability": 0.025
+ },
+ {
+   "Job": "Environmental Engineers",
+   "Probability": 0.018
+ },
+ {
+   "Job": "Health and Safety Engineers; Except Mining Safety Engineers and Inspectors",
+   "Probability": 0.028
+ },
+ {
+   "Job": "Industrial Engineers",
+   "Probability": 0.029
+ },
+ {
+   "Job": "Marine Engineers and Naval Architects",
+   "Probability": 0.01
+ },
+ {
+   "Job": "Materials Engineers",
+   "Probability": 0.021
+ },
+ {
+   "Job": "Mechanical Engineers",
+   "Probability": 0.011
+ },
+ {
+   "Job": "Mining and Geological Engineers; Including Mining Safety Engineers",
+   "Probability": 0.14
+ },
+ {
+   "Job": "Nuclear Engineers",
+   "Probability": 0.07
+ },
+ {
+   "Job": "Petroleum Engineers",
+   "Probability": 0.16
+ },
+ {
+   "Job": "Engineers; All Other",
+   "Probability": 0.014
+ },
+ {
+   "Job": "Architectural and Civil Drafters",
+   "Probability": 0.52
+ },
+ {
+   "Job": "Electrical and Electronics Drafters",
+   "Probability": 0.81
+ },
+ {
+   "Job": "Mechanical Drafters",
+   "Probability": 0.68
+ },
+ {
+   "Job": "Aerospace Engineering and Operations Technicians",
+   "Probability": 0.48
+ },
+ {
+   "Job": "Civil Engineering Technicians",
+   "Probability": 0.75
+ },
+ {
+   "Job": "Electrical and Electronics Engineering Technicians",
+   "Probability": 0.84
+ },
+ {
+   "Job": "Electro-Mechanical Technicians",
+   "Probability": 0.81
+ },
+ {
+   "Job": "Environmental Engineering Technicians",
+   "Probability": 0.25
+ },
+ {
+   "Job": "Industrial Engineering Technicians",
+   "Probability": 0.03
+ },
+ {
+   "Job": "Mechanical Engineering Technicians",
+   "Probability": 0.38
+ },
+ {
+   "Job": "Engineering Technicians; Except Drafters; All Other",
+   "Probability": 0.24
+ },
+ {
+   "Job": "Surveying and Mapping Technicians",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Animal Scientists",
+   "Probability": 0.061
+ },
+ {
+   "Job": "Food Scientists and Technologists",
+   "Probability": 0.077
+ },
+ {
+   "Job": "Soil and Plant Scientists",
+   "Probability": 0.021
+ },
+ {
+   "Job": "Biochemists and Biophysicists",
+   "Probability": 0.027
+ },
+ {
+   "Job": "Microbiologists",
+   "Probability": 0.012
+ },
+ {
+   "Job": "Zoologists and Wildlife Biologists",
+   "Probability": 0.3
+ },
+ {
+   "Job": "Biological Scientists; All Other",
+   "Probability": 0.015
+ },
+ {
+   "Job": "Conservation Scientists",
+   "Probability": 0.016
+ },
+ {
+   "Job": "Foresters",
+   "Probability": 0.0081
+ },
+ {
+   "Job": "Epidemiologists",
+   "Probability": 0.2
+ },
+ {
+   "Job": "Medical Scientists; Except Epidemiologists",
+   "Probability": 0.0045
+ },
+ {
+   "Job": "Astronomers",
+   "Probability": 0.041
+ },
+ {
+   "Job": "Physicists",
+   "Probability": 0.1
+ },
+ {
+   "Job": "Atmospheric and Space Scientists",
+   "Probability": 0.67
+ },
+ {
+   "Job": "Chemists",
+   "Probability": 0.1
+ },
+ {
+   "Job": "Materials Scientists",
+   "Probability": 0.021
+ },
+ {
+   "Job": "Environmental Scientists and Specialists; Including Health",
+   "Probability": 0.033
+ },
+ {
+   "Job": "Geoscientists; Except Hydrologists and Geographers",
+   "Probability": 0.63
+ },
+ {
+   "Job": "Hydrologists",
+   "Probability": 0.014
+ },
+ {
+   "Job": "Physical Scientists; All Other",
+   "Probability": 0.43
+ },
+ {
+   "Job": "Economists",
+   "Probability": 0.43
+ },
+ {
+   "Job": "Survey Researchers",
+   "Probability": 0.23
+ },
+ {
+   "Job": "Clinical; Counseling; and School Psychologists",
+   "Probability": 0.0047
+ },
+ {
+   "Job": "Industrial-Organizational Psychologists",
+   "Probability": 0.012
+ },
+ {
+   "Job": "Psychologists; All Other",
+   "Probability": 0.0043
+ },
+ {
+   "Job": "Sociologists",
+   "Probability": 0.059
+ },
+ {
+   "Job": "Urban and Regional Planners",
+   "Probability": 0.13
+ },
+ {
+   "Job": "Anthropologists and Archeologists",
+   "Probability": 0.0077
+ },
+ {
+   "Job": "Geographers",
+   "Probability": 0.25
+ },
+ {
+   "Job": "Historians",
+   "Probability": 0.44
+ },
+ {
+   "Job": "Political Scientists",
+   "Probability": 0.039
+ },
+ {
+   "Job": "Social Scientists and Related Workers; All Other",
+   "Probability": 0.04
+ },
+ {
+   "Job": "Agricultural and Food Science Technicians",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Biological Technicians",
+   "Probability": 0.3
+ },
+ {
+   "Job": "Chemical Technicians",
+   "Probability": 0.57
+ },
+ {
+   "Job": "Geological and Petroleum Technicians",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Nuclear Technicians",
+   "Probability": 0.85
+ },
+ {
+   "Job": "Social Science Research Assistants",
+   "Probability": 0.65
+ },
+ {
+   "Job": "Environmental Science and Protection Technicians; Including Health",
+   "Probability": 0.77
+ },
+ {
+   "Job": "Forensic Science Technicians",
+   "Probability": 0.0095
+ },
+ {
+   "Job": "Forest and Conservation Technicians",
+   "Probability": 0.42
+ },
+ {
+   "Job": "Life; Physical; and Social Science Technicians; All Other",
+   "Probability": 0.61
+ },
+ {
+   "Job": "Substance Abuse and Behavioral Disorder Counselors",
+   "Probability": 0.033
+ },
+ {
+   "Job": "Educational; Guidance; School; and Vocational Counselors",
+   "Probability": 0.0085
+ },
+ {
+   "Job": "Marriage and Family Therapists",
+   "Probability": 0.014
+ },
+ {
+   "Job": "Mental Health Counselors",
+   "Probability": 0.0048
+ },
+ {
+   "Job": "Rehabilitation Counselors",
+   "Probability": 0.0094
+ },
+ {
+   "Job": "Child; Family; and School Social Workers",
+   "Probability": 0.028
+ },
+ {
+   "Job": "Healthcare Social Workers",
+   "Probability": 0.0035
+ },
+ {
+   "Job": "Mental Health and Substance Abuse Social Workers",
+   "Probability": 0.0031
+ },
+ {
+   "Job": "Health Educators",
+   "Probability": 0.045
+ },
+ {
+   "Job": "Probation Officers and Correctional Treatment Specialists",
+   "Probability": 0.25
+ },
+ {
+   "Job": "Social and Human Service Assistants",
+   "Probability": 0.13
+ },
+ {
+   "Job": "Clergy",
+   "Probability": 0.0081
+ },
+ {
+   "Job": "Directors; Religious Activities and Education",
+   "Probability": 0.025
+ },
+ {
+   "Job": "Lawyers",
+   "Probability": 0.035
+ },
+ {
+   "Job": "Judicial Law Clerks",
+   "Probability": 0.41
+ },
+ {
+   "Job": "Administrative Law Judges; Adjudicators; and Hearing Officers",
+   "Probability": 0.64
+ },
+ {
+   "Job": "Arbitrators; Mediators; and Conciliators",
+   "Probability": 0.06
+ },
+ {
+   "Job": "Judges; Magistrate Judges; and Magistrates",
+   "Probability": 0.4
+ },
+ {
+   "Job": "Paralegals and Legal Assistants",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Court Reporters",
+   "Probability": 0.5
+ },
+ {
+   "Job": "Title Examiners; Abstractors; and Searchers",
+   "Probability": 0.99
+ },
+ {
+   "Job": "Postsecondary Teachers",
+   "Probability": 0.032
+ },
+ {
+   "Job": "Preschool Teachers; Except Special Education",
+   "Probability": 0.0074
+ },
+ {
+   "Job": "Kindergarten Teachers; Except Special Education",
+   "Probability": 0.15
+ },
+ {
+   "Job": "Elementary School Teachers; Except Special Education",
+   "Probability": 0.0044
+ },
+ {
+   "Job": "Middle School Teachers; Except Special and Career/Technical Education",
+   "Probability": 0.17
+ },
+ {
+   "Job": "Career/Technical Education Teachers; Middle School",
+   "Probability": 0.26
+ },
+ {
+   "Job": "Secondary School Teachers; Except Special and Career/Technical Education",
+   "Probability": 0.0078
+ },
+ {
+   "Job": "Career/Technical Education Teachers; Secondary School",
+   "Probability": 0.0088
+ },
+ {
+   "Job": "Special Education Teachers; Middle School",
+   "Probability": 0.016
+ },
+ {
+   "Job": "Special Education Teachers; Secondary School",
+   "Probability": 0.0077
+ },
+ {
+   "Job": "Adult Basic and Secondary Education and Literacy Teachers and Instructors",
+   "Probability": 0.19
+ },
+ {
+   "Job": "Self-Enrichment Education Teachers",
+   "Probability": 0.13
+ },
+ {
+   "Job": "Teachers and Instructors; All Other",
+   "Probability": 0.0095
+ },
+ {
+   "Job": "Archivists",
+   "Probability": 0.76
+ },
+ {
+   "Job": "Curators",
+   "Probability": 0.0068
+ },
+ {
+   "Job": "Museum Technicians and Conservators",
+   "Probability": 0.59
+ },
+ {
+   "Job": "Librarians",
+   "Probability": 0.65
+ },
+ {
+   "Job": "Library Technicians",
+   "Probability": 0.99
+ },
+ {
+   "Job": "Audio-Visual and Multimedia Collections Specialists",
+   "Probability": 0.39
+ },
+ {
+   "Job": "Farm and Home Management Advisors",
+   "Probability": 0.0075
+ },
+ {
+   "Job": "Instructional Coordinators",
+   "Probability": 0.0042
+ },
+ {
+   "Job": "Teacher Assistants",
+   "Probability": 0.56
+ },
+ {
+   "Job": "Art Directors",
+   "Probability": 0.023
+ },
+ {
+   "Job": "Craft Artists",
+   "Probability": 0.035
+ },
+ {
+   "Job": "Fine Artists; Including Painters; Sculptors; and Illustrators",
+   "Probability": 0.042
+ },
+ {
+   "Job": "Multimedia Artists and Animators",
+   "Probability": 0.015
+ },
+ {
+   "Job": "Commercial and Industrial Designers",
+   "Probability": 0.037
+ },
+ {
+   "Job": "Fashion Designers",
+   "Probability": 0.021
+ },
+ {
+   "Job": "Floral Designers",
+   "Probability": 0.047
+ },
+ {
+   "Job": "Graphic Designers",
+   "Probability": 0.082
+ },
+ {
+   "Job": "Interior Designers",
+   "Probability": 0.022
+ },
+ {
+   "Job": "Merchandise Displayers and Window Trimmers",
+   "Probability": 0.48
+ },
+ {
+   "Job": "Set and Exhibit Designers",
+   "Probability": 0.0055
+ },
+ {
+   "Job": "Actors",
+   "Probability": 0.37
+ },
+ {
+   "Job": "Producers and Directors",
+   "Probability": 0.022
+ },
+ {
+   "Job": "Athletes and Sports Competitors",
+   "Probability": 0.28
+ },
+ {
+   "Job": "Coaches and Scouts",
+   "Probability": 0.013
+ },
+ {
+   "Job": "Umpires; Referees; and Other Sports Officials",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Dancers",
+   "Probability": 0.13
+ },
+ {
+   "Job": "Choreographers",
+   "Probability": 0.004
+ },
+ {
+   "Job": "Music Directors and Composers",
+   "Probability": 0.015
+ },
+ {
+   "Job": "Musicians and Singers",
+   "Probability": 0.074
+ },
+ {
+   "Job": "Radio and Television Announcers",
+   "Probability": 0.1
+ },
+ {
+   "Job": "Public Address System and Other Announcers",
+   "Probability": 0.72
+ },
+ {
+   "Job": "Broadcast News Analysts",
+   "Probability": 0.067
+ },
+ {
+   "Job": "Reporters and Correspondents",
+   "Probability": 0.11
+ },
+ {
+   "Job": "Public Relations Specialists",
+   "Probability": 0.18
+ },
+ {
+   "Job": "Editors",
+   "Probability": 0.055
+ },
+ {
+   "Job": "Technical Writers",
+   "Probability": 0.89
+ },
+ {
+   "Job": "Writers and Authors",
+   "Probability": 0.038
+ },
+ {
+   "Job": "Interpreters and Translators",
+   "Probability": 0.38
+ },
+ {
+   "Job": "Audio and Video Equipment Technicians",
+   "Probability": 0.55
+ },
+ {
+   "Job": "Broadcast Technicians",
+   "Probability": 0.74
+ },
+ {
+   "Job": "Radio Operators",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Sound Engineering Technicians",
+   "Probability": 0.13
+ },
+ {
+   "Job": "Photographers",
+   "Probability": 0.021
+ },
+ {
+   "Job": "Camera Operators; Television; Video; and Motion Picture",
+   "Probability": 0.6
+ },
+ {
+   "Job": "Film and Video Editors",
+   "Probability": 0.31
+ },
+ {
+   "Job": "Chiropractors",
+   "Probability": 0.027
+ },
+ {
+   "Job": "Dentists; General",
+   "Probability": 0.0044
+ },
+ {
+   "Job": "Oral and Maxillofacial Surgeons",
+   "Probability": 0.0036
+ },
+ {
+   "Job": "Orthodontists",
+   "Probability": 0.023
+ },
+ {
+   "Job": "Prosthodontists",
+   "Probability": 0.055
+ },
+ {
+   "Job": "Dietitians and Nutritionists",
+   "Probability": 0.0039
+ },
+ {
+   "Job": "Optometrists",
+   "Probability": 0.14
+ },
+ {
+   "Job": "Pharmacists",
+   "Probability": 0.012
+ },
+ {
+   "Job": "Physicians and Surgeons",
+   "Probability": 0.0042
+ },
+ {
+   "Job": "Physician Assistants",
+   "Probability": 0.14
+ },
+ {
+   "Job": "Podiatrists",
+   "Probability": 0.0046
+ },
+ {
+   "Job": "Registered Nurses",
+   "Probability": 0.009
+ },
+ {
+   "Job": "Occupational Therapists",
+   "Probability": 0.0035
+ },
+ {
+   "Job": "Physical Therapists",
+   "Probability": 0.021
+ },
+ {
+   "Job": "Radiation Therapists",
+   "Probability": 0.34
+ },
+ {
+   "Job": "Recreational Therapists",
+   "Probability": 0.0028
+ },
+ {
+   "Job": "Respiratory Therapists",
+   "Probability": 0.066
+ },
+ {
+   "Job": "Speech-Language Pathologists",
+   "Probability": 0.0064
+ },
+ {
+   "Job": "Veterinarians",
+   "Probability": 0.038
+ },
+ {
+   "Job": "Audiologists",
+   "Probability": 0.0033
+ },
+ {
+   "Job": "Health Diagnosing and Treating Practitioners; All Other",
+   "Probability": 0.02
+ },
+ {
+   "Job": "Medical and Clinical Laboratory Technologists",
+   "Probability": 0.9
+ },
+ {
+   "Job": "Medical and Clinical Laboratory Technicians",
+   "Probability": 0.47
+ },
+ {
+   "Job": "Dental Hygienists",
+   "Probability": 0.68
+ },
+ {
+   "Job": "Cardiovascular Technologists and Technicians",
+   "Probability": 0.23
+ },
+ {
+   "Job": "Diagnostic Medical Sonographers",
+   "Probability": 0.35
+ },
+ {
+   "Job": "Nuclear Medicine Technologists",
+   "Probability": 0.13
+ },
+ {
+   "Job": "Radiologic Technologists and Technicians",
+   "Probability": 0.23
+ },
+ {
+   "Job": "Emergency Medical Technicians and Paramedics",
+   "Probability": 0.049
+ },
+ {
+   "Job": "Dietetic Technicians",
+   "Probability": 0.13
+ },
+ {
+   "Job": "Pharmacy Technicians",
+   "Probability": 0.92
+ },
+ {
+   "Job": "Psychiatric Technicians",
+   "Probability": 0.043
+ },
+ {
+   "Job": "Respiratory Therapy Technicians",
+   "Probability": 0.1
+ },
+ {
+   "Job": "Surgical Technologists",
+   "Probability": 0.34
+ },
+ {
+   "Job": "Veterinary Technologists and Technicians",
+   "Probability": 0.029
+ },
+ {
+   "Job": "Licensed Practical and Licensed Vocational Nurses",
+   "Probability": 0.058
+ },
+ {
+   "Job": "Medical Records and Health Information Technicians",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Opticians; Dispensing",
+   "Probability": 0.71
+ },
+ {
+   "Job": "Orthotists and Prosthetists",
+   "Probability": 0.0035
+ },
+ {
+   "Job": "Health Technologists and Technicians; All Other",
+   "Probability": 0.4
+ },
+ {
+   "Job": "Occupational Health and Safety Specialists",
+   "Probability": 0.17
+ },
+ {
+   "Job": "Occupational Health and Safety Technicians",
+   "Probability": 0.25
+ },
+ {
+   "Job": "Athletic Trainers",
+   "Probability": 0.0071
+ },
+ {
+   "Job": "Healthcare Practitioners and Technical Workers; All Other",
+   "Probability": 0.055
+ },
+ {
+   "Job": "Home Health Aides",
+   "Probability": 0.39
+ },
+ {
+   "Job": "Psychiatric Aides",
+   "Probability": 0.47
+ },
+ {
+   "Job": "Occupational Therapy Assistants",
+   "Probability": 0.028
+ },
+ {
+   "Job": "Occupational Therapy Aides",
+   "Probability": 0.27
+ },
+ {
+   "Job": "Physical Therapist Assistants",
+   "Probability": 0.018
+ },
+ {
+   "Job": "Physical Therapist Aides",
+   "Probability": 0.61
+ },
+ {
+   "Job": "Massage Therapists",
+   "Probability": 0.54
+ },
+ {
+   "Job": "Dental Assistants",
+   "Probability": 0.51
+ },
+ {
+   "Job": "Medical Assistants",
+   "Probability": 0.3
+ },
+ {
+   "Job": "Medical Equipment Preparers",
+   "Probability": 0.78
+ },
+ {
+   "Job": "Medical Transcriptionists",
+   "Probability": 0.89
+ },
+ {
+   "Job": "Pharmacy Aides",
+   "Probability": 0.72
+ },
+ {
+   "Job": "Veterinary Assistants and Laboratory Animal Caretakers",
+   "Probability": 0.86
+ },
+ {
+   "Job": "Healthcare Support Workers; All Other",
+   "Probability": 0.63
+ },
+ {
+   "Job": "First-Line Supervisors of Correctional Officers",
+   "Probability": 0.025
+ },
+ {
+   "Job": "First-Line Supervisors of Police and Detectives",
+   "Probability": 0.0044
+ },
+ {
+   "Job": "First-Line Supervisors of Fire Fighting and Prevention Workers",
+   "Probability": 0.0036
+ },
+ {
+   "Job": "Firefighters",
+   "Probability": 0.17
+ },
+ {
+   "Job": "Fire Inspectors and Investigators",
+   "Probability": 0.48
+ },
+ {
+   "Job": "Forest Fire Inspectors and Prevention Specialists",
+   "Probability": 0.048
+ },
+ {
+   "Job": "Bailiffs",
+   "Probability": 0.36
+ },
+ {
+   "Job": "Correctional Officers and Jailers",
+   "Probability": 0.6
+ },
+ {
+   "Job": "Detectives and Criminal Investigators",
+   "Probability": 0.34
+ },
+ {
+   "Job": "Fish and Game Wardens",
+   "Probability": 0.08
+ },
+ {
+   "Job": "Parking Enforcement Workers",
+   "Probability": 0.84
+ },
+ {
+   "Job": "Police and Sheriff�s Patrol Officers",
+   "Probability": 0.098
+ },
+ {
+   "Job": "Transit and Railroad Police",
+   "Probability": 0.57
+ },
+ {
+   "Job": "Animal Control Workers",
+   "Probability": 0.21
+ },
+ {
+   "Job": "Private Detectives and Investigators",
+   "Probability": 0.31
+ },
+ {
+   "Job": "Gaming Surveillance Officers and Gaming Investigators",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Security Guards",
+   "Probability": 0.84
+ },
+ {
+   "Job": "Crossing Guards",
+   "Probability": 0.49
+ },
+ {
+   "Job": "Lifeguards; Ski Patrol; and Other Recreational Protective Service Workers",
+   "Probability": 0.67
+ },
+ {
+   "Job": "Chefs and Head Cooks",
+   "Probability": 0.1
+ },
+ {
+   "Job": "First-Line Supervisors of Food Preparation and Serving Workers",
+   "Probability": 0.63
+ },
+ {
+   "Job": "Cooks; Fast Food",
+   "Probability": 0.81
+ },
+ {
+   "Job": "Cooks; Institution and Cafeteria",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Cooks; Private Household",
+   "Probability": 0.3
+ },
+ {
+   "Job": "Cooks; Restaurant",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Cooks; Short Order",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Food Preparation Workers",
+   "Probability": 0.87
+ },
+ {
+   "Job": "Bartenders",
+   "Probability": 0.77
+ },
+ {
+   "Job": "Combined Food Preparation and Serving Workers; Including Fast Food",
+   "Probability": 0.92
+ },
+ {
+   "Job": "Counter Attendants; Cafeteria; Food Concession; and Coffee Shop",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Waiters and Waitresses",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Food Servers; Nonrestaurant",
+   "Probability": 0.86
+ },
+ {
+   "Job": "Dining Room and Cafeteria Attendants and Bartender Helpers",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Dishwashers",
+   "Probability": 0.77
+ },
+ {
+   "Job": "Hosts and Hostesses; Restaurant; Lounge; and Coffee Shop",
+   "Probability": 0.97
+ },
+ {
+   "Job": "First-Line Supervisors of Housekeeping and Janitorial Workers",
+   "Probability": 0.94
+ },
+ {
+   "Job": "First-Line Supervisors of Landscaping; Lawn Service; and Groundskeeping Workers",
+   "Probability": 0.57
+ },
+ {
+   "Job": "Janitors and Cleaners; Except Maids and Housekeeping Cleaners",
+   "Probability": 0.66
+ },
+ {
+   "Job": "Maids and Housekeeping Cleaners",
+   "Probability": 0.69
+ },
+ {
+   "Job": "Pest Control Workers",
+   "Probability": 0.66
+ },
+ {
+   "Job": "Landscaping and Groundskeeping Workers",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Pesticide Handlers; Sprayers; and Applicators; Vegetation",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Tree Trimmers and Pruners",
+   "Probability": 0.77
+ },
+ {
+   "Job": "Gaming Supervisors",
+   "Probability": 0.28
+ },
+ {
+   "Job": "Slot Supervisors",
+   "Probability": 0.54
+ },
+ {
+   "Job": "First-Line Supervisors of Personal Service Workers",
+   "Probability": 0.076
+ },
+ {
+   "Job": "Animal Trainers",
+   "Probability": 0.1
+ },
+ {
+   "Job": "Nonfarm Animal Caretakers",
+   "Probability": 0.82
+ },
+ {
+   "Job": "Gaming Dealers",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Gaming and Sports Book Writers and Runners",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Motion Picture Projectionists",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Ushers; Lobby Attendants; and Ticket Takers",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Amusement and Recreation Attendants",
+   "Probability": 0.72
+ },
+ {
+   "Job": "Costume Attendants",
+   "Probability": 0.61
+ },
+ {
+   "Job": "Locker Room; Coatroom; and Dressing Room Attendants",
+   "Probability": 0.43
+ },
+ {
+   "Job": "Embalmers",
+   "Probability": 0.54
+ },
+ {
+   "Job": "Funeral Attendants",
+   "Probability": 0.37
+ },
+ {
+   "Job": "Funeral Service Managers; Directors; Morticians; and Undertakers",
+   "Probability": 0.2
+ },
+ {
+   "Job": "Barbers",
+   "Probability": 0.8
+ },
+ {
+   "Job": "Hairdressers; Hairstylists; and Cosmetologists",
+   "Probability": 0.11
+ },
+ {
+   "Job": "Makeup Artists; Theatrical and Performance",
+   "Probability": 0.01
+ },
+ {
+   "Job": "Manicurists and Pedicurists",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Shampooers",
+   "Probability": 0.79
+ },
+ {
+   "Job": "Skincare Specialists",
+   "Probability": 0.29
+ },
+ {
+   "Job": "Baggage Porters and Bellhops",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Concierges",
+   "Probability": 0.21
+ },
+ {
+   "Job": "Tour Guides and Escorts",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Travel Guides",
+   "Probability": 0.057
+ },
+ {
+   "Job": "Childcare Workers",
+   "Probability": 0.084
+ },
+ {
+   "Job": "Personal Care Aides",
+   "Probability": 0.74
+ },
+ {
+   "Job": "Fitness Trainers and Aerobics Instructors",
+   "Probability": 0.085
+ },
+ {
+   "Job": "Recreation Workers",
+   "Probability": 0.0061
+ },
+ {
+   "Job": "Residential Advisors",
+   "Probability": 0.064
+ },
+ {
+   "Job": "First-Line Supervisors of Retail Sales Workers",
+   "Probability": 0.28
+ },
+ {
+   "Job": "First-Line Supervisors of Non-Retail Sales Workers",
+   "Probability": 0.075
+ },
+ {
+   "Job": "Cashiers",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Gaming Change Persons and Booth Cashiers",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Counter and Rental Clerks",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Parts Salespersons",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Retail Salespersons",
+   "Probability": 0.92
+ },
+ {
+   "Job": "Advertising Sales Agents",
+   "Probability": 0.54
+ },
+ {
+   "Job": "Insurance Sales Agents",
+   "Probability": 0.92
+ },
+ {
+   "Job": "Securities; Commodities; and Financial Services Sales Agents",
+   "Probability": 0.016
+ },
+ {
+   "Job": "Travel Agents",
+   "Probability": 0.099
+ },
+ {
+   "Job": "Sales Representatives; Wholesale and Manufacturing; Technical and Scientific Products",
+   "Probability": 0.25
+ },
+ {
+   "Job": "Sales Representatives; Wholesale and Manufacturing; Except Technical and Scientific Products",
+   "Probability": 0.85
+ },
+ {
+   "Job": "Demonstrators and Product Promoters",
+   "Probability": 0.51
+ },
+ {
+   "Job": "Models",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Real Estate Brokers",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Real Estate Sales Agents",
+   "Probability": 0.86
+ },
+ {
+   "Job": "Sales Engineers",
+   "Probability": 0.0041
+ },
+ {
+   "Job": "Telemarketers",
+   "Probability": 0.99
+ },
+ {
+   "Job": "Door-to-Door Sales Workers; News and Street Vendors; and Related Workers",
+   "Probability": 0.94
+ },
+ {
+   "Job": "First-Line Supervisors of Office and Administrative Support Workers",
+   "Probability": 0.014
+ },
+ {
+   "Job": "Switchboard Operators; Including Answering Service",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Telephone Operators",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Bill and Account Collectors",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Billing and Posting Clerks",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Bookkeeping; Accounting; and Auditing Clerks",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Gaming Cage Workers",
+   "Probability": 0.39
+ },
+ {
+   "Job": "Payroll and Timekeeping Clerks",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Procurement Clerks",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Tellers",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Brokerage Clerks",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Correspondence Clerks",
+   "Probability": 0.86
+ },
+ {
+   "Job": "Court; Municipal; and License Clerks",
+   "Probability": 0.46
+ },
+ {
+   "Job": "Credit Authorizers; Checkers; and Clerks",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Customer Service Representatives",
+   "Probability": 0.55
+ },
+ {
+   "Job": "Eligibility Interviewers; Government Programs",
+   "Probability": 0.7
+ },
+ {
+   "Job": "File Clerks",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Hotel; Motel; and Resort Desk Clerks",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Interviewers; Except Eligibility and Loan",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Library Assistants; Clerical",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Loan Interviewers and Clerks",
+   "Probability": 0.92
+ },
+ {
+   "Job": "New Accounts Clerks",
+   "Probability": 0.99
+ },
+ {
+   "Job": "Order Clerks",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Human Resources Assistants; Except Payroll and Timekeeping",
+   "Probability": 0.9
+ },
+ {
+   "Job": "Receptionists and Information Clerks",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Reservation and Transportation Ticket Agents and Travel Clerks",
+   "Probability": 0.61
+ },
+ {
+   "Job": "Cargo and Freight Agents",
+   "Probability": 0.99
+ },
+ {
+   "Job": "Couriers and Messengers",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Police; Fire; and Ambulance Dispatchers",
+   "Probability": 0.49
+ },
+ {
+   "Job": "Dispatchers; Except Police; Fire; and Ambulance",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Meter Readers; Utilities",
+   "Probability": 0.85
+ },
+ {
+   "Job": "Postal Service Clerks",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Postal Service Mail Carriers",
+   "Probability": 0.68
+ },
+ {
+   "Job": "Postal Service Mail Sorters; Processors; and Processing Machine Operators",
+   "Probability": 0.79
+ },
+ {
+   "Job": "Production; Planning; and Expediting Clerks",
+   "Probability": 0.88
+ },
+ {
+   "Job": "Shipping; Receiving; and Traffic Clerks",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Stock Clerks and Order Fillers",
+   "Probability": 0.64
+ },
+ {
+   "Job": "Weighers; Measurers; Checkers; and Samplers; Recordkeeping",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Executive Secretaries and Executive Administrative Assistants",
+   "Probability": 0.86
+ },
+ {
+   "Job": "Legal Secretaries",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Medical Secretaries",
+   "Probability": 0.81
+ },
+ {
+   "Job": "Secretaries and Administrative Assistants; Except Legal; Medical; and Executive",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Computer Operators",
+   "Probability": 0.78
+ },
+ {
+   "Job": "Data Entry Keyers",
+   "Probability": 0.99
+ },
+ {
+   "Job": "Word Processors and Typists",
+   "Probability": 0.81
+ },
+ {
+   "Job": "Desktop Publishers",
+   "Probability": 0.16
+ },
+ {
+   "Job": "Insurance Claims and Policy Processing Clerks",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Mail Clerks and Mail Machine Operators; Except Postal Service",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Office Clerks; General",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Office Machine Operators; Except Computer",
+   "Probability": 0.92
+ },
+ {
+   "Job": "Proofreaders and Copy Markers",
+   "Probability": 0.84
+ },
+ {
+   "Job": "Statistical Assistants",
+   "Probability": 0.66
+ },
+ {
+   "Job": "First-Line Supervisors of Farming; Fishing; and Forestry Workers",
+   "Probability": 0.57
+ },
+ {
+   "Job": "Agricultural Inspectors",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Animal Breeders",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Graders and Sorters; Agricultural Products",
+   "Probability": 0.41
+ },
+ {
+   "Job": "Miscellaneous Agricultural Workers",
+   "Probability": 0.87
+ },
+ {
+   "Job": "Fishers and Related Fishing Workers",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Hunters and Trappers",
+   "Probability": 0.77
+ },
+ {
+   "Job": "Forest and Conservation Workers",
+   "Probability": 0.87
+ },
+ {
+   "Job": "Fallers",
+   "Probability": 0.76
+ },
+ {
+   "Job": "Logging Equipment Operators",
+   "Probability": 0.79
+ },
+ {
+   "Job": "Log Graders and Scalers",
+   "Probability": 0.97
+ },
+ {
+   "Job": "First-Line Supervisors of Construction Trades and Extraction Workers",
+   "Probability": 0.17
+ },
+ {
+   "Job": "Boilermakers",
+   "Probability": 0.68
+ },
+ {
+   "Job": "Brickmasons and Blockmasons",
+   "Probability": 0.82
+ },
+ {
+   "Job": "Stonemasons",
+   "Probability": 0.89
+ },
+ {
+   "Job": "Carpenters",
+   "Probability": 0.72
+ },
+ {
+   "Job": "Carpet Installers",
+   "Probability": 0.87
+ },
+ {
+   "Job": "Floor Layers; Except Carpet; Wood; and Hard Tiles",
+   "Probability": 0.79
+ },
+ {
+   "Job": "Floor Sanders and Finishers",
+   "Probability": 0.87
+ },
+ {
+   "Job": "Tile and Marble Setters",
+   "Probability": 0.75
+ },
+ {
+   "Job": "Cement Masons and Concrete Finishers",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Terrazzo Workers and Finishers",
+   "Probability": 0.88
+ },
+ {
+   "Job": "Construction Laborers",
+   "Probability": 0.88
+ },
+ {
+   "Job": "Paving; Surfacing; and Tamping Equipment Operators",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Pile-Driver Operators",
+   "Probability": 0.82
+ },
+ {
+   "Job": "Operating Engineers and Other Construction Equipment Operators",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Drywall and Ceiling Tile Installers",
+   "Probability": 0.79
+ },
+ {
+   "Job": "Tapers",
+   "Probability": 0.62
+ },
+ {
+   "Job": "Electricians",
+   "Probability": 0.15
+ },
+ {
+   "Job": "Glaziers",
+   "Probability": 0.73
+ },
+ {
+   "Job": "Insulation Workers; Floor; Ceiling; and Wall",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Insulation Workers; Mechanical",
+   "Probability": 0.64
+ },
+ {
+   "Job": "Painters; Construction and Maintenance",
+   "Probability": 0.75
+ },
+ {
+   "Job": "Paperhangers",
+   "Probability": 0.87
+ },
+ {
+   "Job": "Pipelayers",
+   "Probability": 0.62
+ },
+ {
+   "Job": "Plumbers; Pipefitters; and Steamfitters",
+   "Probability": 0.35
+ },
+ {
+   "Job": "Plasterers and Stucco Masons",
+   "Probability": 0.84
+ },
+ {
+   "Job": "Reinforcing Iron and Rebar Workers",
+   "Probability": 0.9
+ },
+ {
+   "Job": "Roofers",
+   "Probability": 0.9
+ },
+ {
+   "Job": "Sheet Metal Workers",
+   "Probability": 0.82
+ },
+ {
+   "Job": "Structural Iron and Steel Workers",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Helpers�Brickmasons; Blockmasons; Stonemasons; and Tile and Marble Setters",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Helpers�Carpenters",
+   "Probability": 0.92
+ },
+ {
+   "Job": "Helpers�Electricians",
+   "Probability": 0.74
+ },
+ {
+   "Job": "Helpers�Painters; Paperhangers; Plasterers; and Stucco Masons",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Helpers�Pipelayers; Plumbers; Pipefitters; and Steamfitters",
+   "Probability": 0.57
+ },
+ {
+   "Job": "Helpers�Roofers",
+   "Probability": 0.72
+ },
+ {
+   "Job": "Construction and Building Inspectors",
+   "Probability": 0.63
+ },
+ {
+   "Job": "Elevator Installers and Repairers",
+   "Probability": 0.39
+ },
+ {
+   "Job": "Fence Erectors",
+   "Probability": 0.92
+ },
+ {
+   "Job": "Hazardous Materials Removal Workers",
+   "Probability": 0.53
+ },
+ {
+   "Job": "Highway Maintenance Workers",
+   "Probability": 0.87
+ },
+ {
+   "Job": "Rail-Track Laying and Maintenance Equipment Operators",
+   "Probability": 0.89
+ },
+ {
+   "Job": "Septic Tank Servicers and Sewer Pipe Cleaners",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Segmental Pavers",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Construction and Related Workers; All Other",
+   "Probability": 0.71
+ },
+ {
+   "Job": "Derrick Operators; Oil and Gas",
+   "Probability": 0.8
+ },
+ {
+   "Job": "Rotary Drill Operators; Oil and Gas",
+   "Probability": 0.53
+ },
+ {
+   "Job": "Service Unit Operators; Oil; Gas; and Mining",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Earth Drillers; Except Oil and Gas",
+   "Probability": 0.85
+ },
+ {
+   "Job": "Explosives Workers; Ordnance Handling Experts; and Blasters",
+   "Probability": 0.48
+ },
+ {
+   "Job": "Continuous Mining Machine Operators",
+   "Probability": 0.54
+ },
+ {
+   "Job": "Mine Cutting and Channeling Machine Operators",
+   "Probability": 0.59
+ },
+ {
+   "Job": "Rock Splitters; Quarry",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Roof Bolters; Mining",
+   "Probability": 0.49
+ },
+ {
+   "Job": "Roustabouts; Oil and Gas",
+   "Probability": 0.68
+ },
+ {
+   "Job": "Helpers�Extraction Workers",
+   "Probability": 0.37
+ },
+ {
+   "Job": "First-Line Supervisors of Mechanics; Installers; and Repairers",
+   "Probability": 0.003
+ },
+ {
+   "Job": "Computer; Automated Teller; and Office Machine Repairers",
+   "Probability": 0.74
+ },
+ {
+   "Job": "Radio; Cellular; and Tower Equipment Installers and Repairs",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Telecommunications Equipment Installers and Repairers; Except Line Installers",
+   "Probability": 0.36
+ },
+ {
+   "Job": "Avionics Technicians",
+   "Probability": 0.7
+ },
+ {
+   "Job": "Electric Motor; Power Tool; and Related Repairers",
+   "Probability": 0.76
+ },
+ {
+   "Job": "Electrical and Electronics Installers and Repairers; Transportation Equipment",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Electrical and Electronics Repairers; Commercial and Industrial Equipment",
+   "Probability": 0.41
+ },
+ {
+   "Job": "Electrical and Electronics Repairers; Powerhouse; Substation; and Relay",
+   "Probability": 0.38
+ },
+ {
+   "Job": "Electronic Equipment Installers and Repairers; Motor Vehicles",
+   "Probability": 0.61
+ },
+ {
+   "Job": "Electronic Home Entertainment Equipment Installers and Repairers",
+   "Probability": 0.65
+ },
+ {
+   "Job": "Security and Fire Alarm Systems Installers",
+   "Probability": 0.82
+ },
+ {
+   "Job": "Aircraft Mechanics and Service Technicians",
+   "Probability": 0.71
+ },
+ {
+   "Job": "Automotive Body and Related Repairers",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Automotive Glass Installers and Repairers",
+   "Probability": 0.55
+ },
+ {
+   "Job": "Automotive Service Technicians and Mechanics",
+   "Probability": 0.59
+ },
+ {
+   "Job": "Bus and Truck Mechanics and Diesel Engine Specialists",
+   "Probability": 0.73
+ },
+ {
+   "Job": "Farm Equipment Mechanics and Service Technicians",
+   "Probability": 0.75
+ },
+ {
+   "Job": "Mobile Heavy Equipment Mechanics; Except Engines",
+   "Probability": 0.4
+ },
+ {
+   "Job": "Rail Car Repairers",
+   "Probability": 0.88
+ },
+ {
+   "Job": "Motorboat Mechanics and Service Technicians",
+   "Probability": 0.66
+ },
+ {
+   "Job": "Motorcycle Mechanics",
+   "Probability": 0.79
+ },
+ {
+   "Job": "Outdoor Power Equipment and Other Small Engine Mechanics",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Bicycle Repairers",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Recreational Vehicle Service Technicians",
+   "Probability": 0.59
+ },
+ {
+   "Job": "Tire Repairers and Changers",
+   "Probability": 0.7
+ },
+ {
+   "Job": "Mechanical Door Repairers",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Control and Valve Installers and Repairers; Except Mechanical Door",
+   "Probability": 0.63
+ },
+ {
+   "Job": "Heating; Air Conditioning; and Refrigeration Mechanics and Installers",
+   "Probability": 0.65
+ },
+ {
+   "Job": "Home Appliance Repairers",
+   "Probability": 0.72
+ },
+ {
+   "Job": "Industrial Machinery Mechanics",
+   "Probability": 0.67
+ },
+ {
+   "Job": "Maintenance Workers; Machinery",
+   "Probability": 0.86
+ },
+ {
+   "Job": "Millwrights",
+   "Probability": 0.59
+ },
+ {
+   "Job": "Refractory Materials Repairers; Except Brickmasons",
+   "Probability": 0.82
+ },
+ {
+   "Job": "Electrical Power-Line Installers and Repairers",
+   "Probability": 0.097
+ },
+ {
+   "Job": "Telecommunications Line Installers and Repairers",
+   "Probability": 0.49
+ },
+ {
+   "Job": "Camera and Photographic Equipment Repairers",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Medical Equipment Repairers",
+   "Probability": 0.27
+ },
+ {
+   "Job": "Musical Instrument Repairers and Tuners",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Watch Repairers",
+   "Probability": 0.99
+ },
+ {
+   "Job": "Maintenance and Repair Workers; General",
+   "Probability": 0.64
+ },
+ {
+   "Job": "Coin; Vending; and Amusement Machine Servicers and Repairers",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Commercial Divers",
+   "Probability": 0.18
+ },
+ {
+   "Job": "Fabric Menders; Except Garment",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Locksmiths and Safe Repairers",
+   "Probability": 0.77
+ },
+ {
+   "Job": "Manufactured Building and Mobile Home Installers",
+   "Probability": 0.18
+ },
+ {
+   "Job": "Riggers",
+   "Probability": 0.89
+ },
+ {
+   "Job": "Signal and Track Switch Repairers",
+   "Probability": 0.9
+ },
+ {
+   "Job": "Helpers�Installation; Maintenance; and Repair Workers",
+   "Probability": 0.79
+ },
+ {
+   "Job": "Installation; Maintenance; and Repair Workers; All Other",
+   "Probability": 0.5
+ },
+ {
+   "Job": "First-Line Supervisors of Production and Operating Workers",
+   "Probability": 0.016
+ },
+ {
+   "Job": "Aircraft Structure; Surfaces; Rigging; and Systems Assemblers",
+   "Probability": 0.79
+ },
+ {
+   "Job": "Coil Winders; Tapers; and Finishers",
+   "Probability": 0.73
+ },
+ {
+   "Job": "Electrical and Electronic Equipment Assemblers",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Electromechanical Equipment Assemblers",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Engine and Other Machine Assemblers",
+   "Probability": 0.82
+ },
+ {
+   "Job": "Structural Metal Fabricators and Fitters",
+   "Probability": 0.41
+ },
+ {
+   "Job": "Fiberglass Laminators and Fabricators",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Team Assemblers",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Timing Device Assemblers and Adjusters",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Bakers",
+   "Probability": 0.89
+ },
+ {
+   "Job": "Butchers and Meat Cutters",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Meat; Poultry; and Fish Cutters and Trimmers",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Slaughterers and Meat Packers",
+   "Probability": 0.6
+ },
+ {
+   "Job": "Food and Tobacco Roasting; Baking; and Drying Machine Operators and Tenders",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Food Batchmakers",
+   "Probability": 0.7
+ },
+ {
+   "Job": "Food Cooking Machine Operators and Tenders",
+   "Probability": 0.61
+ },
+ {
+   "Job": "Computer-Controlled Machine Tool Operators; Metal and Plastic",
+   "Probability": 0.86
+ },
+ {
+   "Job": "Computer Numerically Controlled Machine Tool Programmers; Metal and Plastic",
+   "Probability": 0.36
+ },
+ {
+   "Job": "Extruding and Drawing Machine Setters; Operators; and Tenders; Metal and Plastic",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Forging Machine Setters; Operators; and Tenders; Metal and Plastic",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Rolling Machine Setters; Operators; and Tenders; Metal and Plastic",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Cutting; Punching; and Press Machine Setters; Operators; and Tenders; Metal and Plastic",
+   "Probability": 0.78
+ },
+ {
+   "Job": "Drilling and Boring Machine Tool Setters; Operators; and Tenders; Metal and Plastic",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Grinding; Lapping; Polishing; and Buffing Machine Tool Setters; Operators; and Tenders; Metal and Plastic",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Lathe and Turning Machine Tool Setters; Operators; and Tenders; Metal and Plastic",
+   "Probability": 0.84
+ },
+ {
+   "Job": "Milling and Planing Machine Setters; Operators; and Tenders; Metal and Plastic",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Machinists",
+   "Probability": 0.65
+ },
+ {
+   "Job": "Metal-Refining Furnace Operators and Tenders",
+   "Probability": 0.88
+ },
+ {
+   "Job": "Pourers and Casters; Metal",
+   "Probability": 0.87
+ },
+ {
+   "Job": "Model Makers; Metal and Plastic",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Patternmakers; Metal and Plastic",
+   "Probability": 0.9
+ },
+ {
+   "Job": "Foundry Mold and Coremakers",
+   "Probability": 0.67
+ },
+ {
+   "Job": "Molding; Coremaking; and Casting Machine Setters; Operators; and Tenders; Metal and Plastic",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Multiple Machine Tool Setters; Operators; and Tenders; Metal and Plastic",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Tool and Die Makers",
+   "Probability": 0.84
+ },
+ {
+   "Job": "Welders; Cutters; Solderers; and Brazers",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Welding; Soldering; and Brazing Machine Setters; Operators; and Tenders",
+   "Probability": 0.61
+ },
+ {
+   "Job": "Heat Treating Equipment Setters; Operators; and Tenders; Metal and Plastic",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Layout Workers; Metal and Plastic",
+   "Probability": 0.84
+ },
+ {
+   "Job": "Plating and Coating Machine Setters; Operators; and Tenders; Metal and Plastic",
+   "Probability": 0.92
+ },
+ {
+   "Job": "Tool Grinders; Filers; and Sharpeners",
+   "Probability": 0.88
+ },
+ {
+   "Job": "Prepress Technicians and Workers",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Printing Press Operators",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Print Binding and Finishing Workers",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Laundry and Dry-Cleaning Workers",
+   "Probability": 0.71
+ },
+ {
+   "Job": "Pressers; Textile; Garment; and Related Materials",
+   "Probability": 0.81
+ },
+ {
+   "Job": "Sewing Machine Operators",
+   "Probability": 0.89
+ },
+ {
+   "Job": "Shoe and Leather Workers and Repairers",
+   "Probability": 0.52
+ },
+ {
+   "Job": "Shoe Machine Operators and Tenders",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Sewers; Hand",
+   "Probability": 0.99
+ },
+ {
+   "Job": "Tailors; Dressmakers; and Custom Sewers",
+   "Probability": 0.84
+ },
+ {
+   "Job": "Textile Bleaching and Dyeing Machine Operators and Tenders",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Textile Cutting Machine Setters; Operators; and Tenders",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Textile Knitting and Weaving Machine Setters; Operators; and Tenders",
+   "Probability": 0.73
+ },
+ {
+   "Job": "Textile Winding; Twisting; and Drawing Out Machine Setters; Operators; and Tenders",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Extruding and Forming Machine Setters; Operators; and Tenders; Synthetic and Glass Fibers",
+   "Probability": 0.88
+ },
+ {
+   "Job": "Fabric and Apparel Patternmakers",
+   "Probability": 0.0049
+ },
+ {
+   "Job": "Upholsterers",
+   "Probability": 0.39
+ },
+ {
+   "Job": "Cabinetmakers and Bench Carpenters",
+   "Probability": 0.92
+ },
+ {
+   "Job": "Furniture Finishers",
+   "Probability": 0.87
+ },
+ {
+   "Job": "Model Makers; Wood",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Patternmakers; Wood",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Sawing Machine Setters; Operators; and Tenders; Wood",
+   "Probability": 0.86
+ },
+ {
+   "Job": "Woodworking Machine Setters; Operators; and Tenders; Except Sawing",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Nuclear Power Reactor Operators",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Power Distributors and Dispatchers",
+   "Probability": 0.64
+ },
+ {
+   "Job": "Power Plant Operators",
+   "Probability": 0.85
+ },
+ {
+   "Job": "Stationary Engineers and Boiler Operators",
+   "Probability": 0.89
+ },
+ {
+   "Job": "Water and Wastewater Treatment Plant and System Operators",
+   "Probability": 0.61
+ },
+ {
+   "Job": "Chemical Plant and System Operators",
+   "Probability": 0.85
+ },
+ {
+   "Job": "Gas Plant Operators",
+   "Probability": 0.78
+ },
+ {
+   "Job": "Petroleum Pump System Operators; Refinery Operators; and Gaugers",
+   "Probability": 0.71
+ },
+ {
+   "Job": "Plant and System Operators; All Other",
+   "Probability": 0.86
+ },
+ {
+   "Job": "Chemical Equipment Operators and Tenders",
+   "Probability": 0.76
+ },
+ {
+   "Job": "Separating; Filtering; Clarifying; Precipitating; and Still Machine Setters; Operators; and Tenders",
+   "Probability": 0.88
+ },
+ {
+   "Job": "Crushing; Grinding; and Polishing Machine Setters; Operators; and Tenders",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Grinding and Polishing Workers; Hand",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Mixing and Blending Machine Setters; Operators; and Tenders",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Cutters and Trimmers; Hand",
+   "Probability": 0.64
+ },
+ {
+   "Job": "Cutting and Slicing Machine Setters; Operators; and Tenders",
+   "Probability": 0.86
+ },
+ {
+   "Job": "Extruding; Forming; Pressing; and Compacting Machine Setters; Operators; and Tenders",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Furnace; Kiln; Oven; Drier; and Kettle Operators and Tenders",
+   "Probability": 0.37
+ },
+ {
+   "Job": "Inspectors; Testers; Sorters; Samplers; and Weighers",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Jewelers and Precious Stone and Metal Workers",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Dental Laboratory Technicians",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Medical Appliance Technicians",
+   "Probability": 0.45
+ },
+ {
+   "Job": "Ophthalmic Laboratory Technicians",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Packaging and Filling Machine Operators and Tenders",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Coating; Painting; and Spraying Machine Setters; Operators; and Tenders",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Painters; Transportation Equipment",
+   "Probability": 0.69
+ },
+ {
+   "Job": "Painting; Coating; and Decorating Workers",
+   "Probability": 0.92
+ },
+ {
+   "Job": "Semiconductor Processors",
+   "Probability": 0.88
+ },
+ {
+   "Job": "Photographic Process Workers and Processing Machine Operators",
+   "Probability": 0.99
+ },
+ {
+   "Job": "Adhesive Bonding Machine Operators and Tenders",
+   "Probability": 0.95
+ },
+ {
+   "Job": "Cleaning; Washing; and Metal Pickling Equipment Operators and Tenders",
+   "Probability": 0.81
+ },
+ {
+   "Job": "Cooling and Freezing Equipment Operators and Tenders",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Etchers and Engravers",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Molders; Shapers; and Casters; Except Metal and Plastic",
+   "Probability": 0.9
+ },
+ {
+   "Job": "Paper Goods Machine Setters; Operators; and Tenders",
+   "Probability": 0.67
+ },
+ {
+   "Job": "Tire Builders",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Helpers�Production Workers",
+   "Probability": 0.66
+ },
+ {
+   "Job": "Production Workers; All Other",
+   "Probability": 0.92
+ },
+ {
+   "Job": "Aircraft Cargo Handling Supervisors",
+   "Probability": 0.066
+ },
+ {
+   "Job": "First-Line Supervisors of Helpers; Laborers; and Material Movers; Hand",
+   "Probability": 0.42
+ },
+ {
+   "Job": "First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators",
+   "Probability": 0.029
+ },
+ {
+   "Job": "Airline Pilots; Copilots; and Flight Engineers",
+   "Probability": 0.18
+ },
+ {
+   "Job": "Commercial Pilots",
+   "Probability": 0.55
+ },
+ {
+   "Job": "Air Traffic Controllers",
+   "Probability": 0.11
+ },
+ {
+   "Job": "Airfield Operations Specialists",
+   "Probability": 0.71
+ },
+ {
+   "Job": "Flight Attendants",
+   "Probability": 0.35
+ },
+ {
+   "Job": "Ambulance Drivers and Attendants; Except Emergency Medical Technicians",
+   "Probability": 0.25
+ },
+ {
+   "Job": "Bus Drivers; Transit and Intercity",
+   "Probability": 0.67
+ },
+ {
+   "Job": "Bus Drivers; School or Special Client",
+   "Probability": 0.89
+ },
+ {
+   "Job": "Driver/Sales Workers",
+   "Probability": 0.98
+ },
+ {
+   "Job": "Heavy and Tractor-Trailer Truck Drivers",
+   "Probability": 0.79
+ },
+ {
+   "Job": "Light Truck or Delivery Services Drivers",
+   "Probability": 0.69
+ },
+ {
+   "Job": "Taxi Drivers and Chauffeurs",
+   "Probability": 0.89
+ },
+ {
+   "Job": "Locomotive Engineers",
+   "Probability": 0.96
+ },
+ {
+   "Job": "Locomotive Firers",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Rail Yard Engineers; Dinkey Operators; and Hostlers",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Railroad Brake; Signal; and Switch Operators",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Railroad Conductors and Yardmasters",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Subway and Streetcar Operators",
+   "Probability": 0.86
+ },
+ {
+   "Job": "Sailors and Marine Oilers",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Captains; Mates; and Pilots of Water Vessels",
+   "Probability": 0.27
+ },
+ {
+   "Job": "Motorboat Operators",
+   "Probability": 0.62
+ },
+ {
+   "Job": "Ship Engineers",
+   "Probability": 0.041
+ },
+ {
+   "Job": "Bridge and Lock Tenders",
+   "Probability": 0.97
+ },
+ {
+   "Job": "Parking Lot Attendants",
+   "Probability": 0.87
+ },
+ {
+   "Job": "Automotive and Watercraft Service Attendants",
+   "Probability": 0.83
+ },
+ {
+   "Job": "Traffic Technicians",
+   "Probability": 0.9
+ },
+ {
+   "Job": "Transportation Inspectors",
+   "Probability": 0.9
+ },
+ {
+   "Job": "Transportation Attendants; Except Flight Attendants",
+   "Probability": 0.75
+ },
+ {
+   "Job": "Conveyor Operators and Tenders",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Crane and Tower Operators",
+   "Probability": 0.9
+ },
+ {
+   "Job": "Dredge Operators",
+   "Probability": 0.92
+ },
+ {
+   "Job": "Excavating and Loading Machine and Dragline Operators",
+   "Probability": 0.94
+ },
+ {
+   "Job": "Loading Machine Operators; Underground Mining",
+   "Probability": 0.5
+ },
+ {
+   "Job": "Hoist and Winch Operators",
+   "Probability": 0.65
+ },
+ {
+   "Job": "Industrial Truck and Tractor Operators",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Cleaners of Vehicles and Equipment",
+   "Probability": 0.37
+ },
+ {
+   "Job": "Laborers and Freight; Stock; and Material Movers; Hand",
+   "Probability": 0.85
+ },
+ {
+   "Job": "Machine Feeders and Offbearers",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Packers and Packagers; Hand",
+   "Probability": 0.38
+ },
+ {
+   "Job": "Gas Compressor and Gas Pumping Station Operators",
+   "Probability": 0.91
+ },
+ {
+   "Job": "Pump Operators; Except Wellhead Pumpers",
+   "Probability": 0.9
+ },
+ {
+   "Job": "Wellhead Pumpers",
+   "Probability": 0.84
+ },
+ {
+   "Job": "Refuse and Recyclable Material Collectors",
+   "Probability": 0.93
+ },
+ {
+   "Job": "Mine Shuttle Car Operators",
+   "Probability": 0.37
+ },
+ {
+   "Job": "Tank Car; Truck; and Ship Loaders",
+   "Probability": 0.72
+ }
+]
