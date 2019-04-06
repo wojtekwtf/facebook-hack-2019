@@ -116,6 +116,8 @@ CON l  l
 OPN p  p
 """
 
+# from gensim.summarization import keywords
+
 def sentence_split(text:str, max_length:int=20):
     lsent = []; lex = text.split(); max_length = int(max_length*0.75)
     for i in range(0, len(lex), int(max_length/2)):
@@ -130,14 +132,33 @@ def sentence_mean(lsent:list):
             darr[key] = (darr[key]+res[key])/2
     return darr
 
+"""
+def sentence_final(text:str):
+    arr = sentence_split(txt)
+    #print("[INPUT] {}".format(txt))
+    #pprint(arr)
+    res = sentence_mean(arr)
+    # res["keys"] = keywords(text)
+    #print(res)
+    return res
+"""
+
 txt = """Hi! I am very happy and nervus. I don't like people. I hate
-        racism. And I don't know basicly how to talk to people. How to feel
+        racism. And I don't know basically how to talk to people. How to feel
         their feelings"""
+
+"""
 arr = sentence_split(txt)
 print("[INPUT] {}".format(txt))
 pprint(arr)
 res = sentence_mean(arr)
 pprint(res)
+"""
+
+pprint(txt)
+pprint(sentence_mean(txt))
+
+pprint(sentence_mean(input(">> ")))
 
 # from paper
 """
