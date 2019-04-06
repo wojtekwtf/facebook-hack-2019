@@ -19,7 +19,10 @@ def home(request):
 
 
 def check_job(request, context):
-    return render(request,'jobber/check.html',context)
+    return render(request,'jobber/jobfinder.html',context)
+
+def find_job(request):
+    return render(request,'jobber/check.html')
 
 
 # Create your views here.

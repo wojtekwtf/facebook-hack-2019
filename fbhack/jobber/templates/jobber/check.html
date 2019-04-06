@@ -9,13 +9,25 @@
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <p class="display-6 color-d">{{job}}</p>
-          <p class="intro-subtitle"><span class="text-slider-items">Your job is {{danger}}</span><strong class="text-slider"></strong></p>
-          {% if danger == 'unsafe' %}
-          FIND NEW JOB
-          {% else %}
-          BACK TO HOME
-          {% endif %}
+          <p class="intro-subtitle"><span class="text-slider-items">Please answer those questions{{danger}}</span><strong class="text-slider"></strong></p>
+          <form method="POST"> 
+          {% csrf_token %}
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Your hobbies</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Your work experience</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Your current situation</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+           <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Submit</button>
+            </div>
+        </form>
         </div>
       </div>
     </div>

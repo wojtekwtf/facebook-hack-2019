@@ -1,0 +1,28 @@
+{% extends "jobber/index.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+<!--/ Intro Skew Star /-->
+  
+  <div id="home" class="intro route bg-image" style="background-image: url('{% static 'jobber/img/intro-bg.jpg' %}')">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <p class="display-6 color-d">{{job}}</p>
+          <p class="intro-subtitle"><span class="text-slider-items">Your job is {{danger}}</span><strong class="text-slider"></strong></p>
+          {% if danger == 'unsafe' %}
+          <button type="button" class="btn btn-success">
+          <a class="mr-2 textcolor links" href="{% url 'find' %}">FIND NEW JOB</a>
+          </button>
+          {% else %}
+          <button type="button" class="btn btn-success">
+          <a class="mr-2 textcolor links" href="{% url 'jobber-home' %}">BACK TO HOME</a>
+          </button>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+    
+{% endblock content %}
