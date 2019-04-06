@@ -3,19 +3,78 @@
 {% load static %}
 {% block content %}
 <!--/ Intro Skew Star /-->
-  
-  <div id="home" class="intro route bg-image" style="background-image: url('{% static 'jobber/img/intro-bg.jpg' %}')">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">Your future job is {{job}}</h1>
-          AND HERE IS YOUR PATH...
-          
-        </div>
-      </div>
-    </div>
-  </div>
-    
+
+	<script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+
+	});
+	</script>
+<style>
+
+@media screen and (max-width: 680px){
+	#grid[data-columns]::before {
+		content: '1 .column.size-1of1';
+	}
+}
+
+@media screen and (min-width: 681px) and (max-width: 968px) {
+	#grid[data-columns]::before {
+		content: '2 .column.size-1of2';
+	}
+}
+@media screen and (min-width: 969px) {
+	#grid[data-columns]::before {
+		content: '3 .column.size-1of3';
+	}
+}
+
+/* Again, you’re free to use and define the classes: */
+.column { float: left; }
+.size-1of1 { width: 100%; }
+.size-1of2 { width: 50%; }
+.size-1of3 { width: 33.333%; }
+
+.tt_inner {margin-top: 7.5em;}
+.tt_res { text-align: center;
+    background: black;
+    color: white;
+    font-size: 3em;
+	padding: 0.35em;}
+
+.item {
+	background: gray;
+    padding: 1em;
+    min-height: 10em;
+	margin: 1em;}
+
+.yt { background: red; }
+.url { background: yellow; font-size: 2em; min-height: inherit!important; }
+.grid {-webkit-box-shadow: inset -1px 5px 32px 1px rgba(0,0,0,0.67);
+-moz-box-shadow: inset -1px 5px 32px 1px rgba(0,0,0,0.67);
+box-shadow: inset -1px 5px 32px 1px rgba(0,0,0,0.67);}
+</style>
+
+<div class="tt_inner">
+	<div class="tt_res">
+	{{job}}
+	</div>
+
+	<div id="grid" data-columns>
+			<div class="item yt">
+				hahah
+			</div>
+			<div class="item url">
+				<a href="https://wiki.physik.uzh.ch/cms/latex:tikz">
+					How to draw diagrams in LaTeX with TikZ
+				</a>
+			</div>
+			<div class="item">Item #2</div>
+			<div class="item">Item #5</div>
+			<div class="item">Item #3</div>
+			<div class="item">Item #6</div>
+	</div>
+</div>
+
 {% endblock content %}
