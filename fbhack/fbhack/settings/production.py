@@ -2,7 +2,7 @@ from .base import *
 from .credentials import SECRET_KEY, DB_PASSWORD
 
 # Set true for this fancy Django default homepage
-DEBUG = True
+DEBUG = False
 
 DATABASES = {
     'default': {
