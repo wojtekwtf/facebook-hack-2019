@@ -13,16 +13,16 @@
           <form method="POST"> 
           {% csrf_token %}
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Your hobbies</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="area1">How do you feel?</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="job0"></textarea>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Your work experience</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="area2">What is your experience?</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="job1"></textarea>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Your current situation</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <label for="area3">How do you spent free time?</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="job2"></textarea>
           </div>
            <div class="form-group">
                 <button class="btn btn-outline-info" type="submit">Submit</button>

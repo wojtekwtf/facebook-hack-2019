@@ -12,13 +12,17 @@
           <p class="display-6 color-d">{{job}}</p>
           <p class="intro-subtitle"><span class="text-slider-items">Your job is {{danger}}</span><strong class="text-slider"></strong></p>
           {% if danger == 'unsafe' %}
+          <a class="mr-2 textcolor links" href="{% url 'find' %}">
           <button type="button" class="btn btn-success">
-          <a class="mr-2 textcolor links" href="{% url 'find' %}">FIND NEW JOB</a>
+          FIND NEW JOB
           </button>
+          </a>
           {% else %}
+          <a class="mr-2 textcolor links" href="{% url 'jobber-home' %}">
           <button type="button" class="btn btn-success">
-          <a class="mr-2 textcolor links" href="{% url 'jobber-home' %}">BACK TO HOME</a>
+          BACK TO HOME
           </button>
+          </a>
           {% endif %}
         </div>
       </div>
