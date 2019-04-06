@@ -98,29 +98,7 @@ for _ in tqdm(range(0, 1000)):
 
 from pprint import pprint
 
-######################
-def sentence_split(text:str, max_length:int=20):
-    lsent = []; lex = text.split(); max_length = int(max_length*0.75)
-    for i in range(0, len(lex), int(max_length/2)):
-        lsent.append(" ".join(lex[i:min(i+max_length, len(lex))]))
-    return lsent
-
-def sentence_mean(lsent:list):
-    darr = {"cEXT":0.5, "cNEU":0.5, "cAGR":0.5, "cCON":0.5, "cOPN":0.5}
-    for s in lsent:
-        res = predict_for_our_models(s)
-        for key in res.keys():
-            darr[key] = (darr[key]+res[key])/2
-    return darr
-
-arr = sentence_split("""Hi! I am very happy and nervus. I don't like people. I hate
-        racism. And I don't know basicly how to talk to people. How to feel
-        their feelings""")
-print(arr)
-res = sentence_mean(arr)
-print(res)
-
-######################
+# https://github.com/Microsoft/Recommenders
 
 TEXT_1 = "Hi! I am very happy! What do you think? Is it good?"
 pprint(predict_for_our_models(TEXT_1))
@@ -137,6 +115,29 @@ AGR p  p
 CON l  l
 OPN p  p
 """
+
+def sentence_split(text:str, max_length:int=20):
+    lsent = []; lex = text.split(); max_length = int(max_length*0.75)
+    for i in range(0, len(lex), int(max_length/2)):
+        lsent.append(" ".join(lex[i:min(i+max_length, len(lex))]))
+    return lsent
+
+def sentence_mean(lsent:list):
+    darr = {"cEXT":0.5, "cNEU":0.5, "cAGR":0.5, "cCON":0.5, "cOPN":0.5}
+    for s in lsent:
+        res = predict_for_our_models(s)
+        for key in res.keys():
+            darr[key] = (darr[key]+res[key])/2
+    return darr
+
+txt = """Hi! I am very happy and nervus. I don't like people. I hate
+        racism. And I don't know basicly how to talk to people. How to feel
+        their feelings"""
+arr = sentence_split(txt)
+print("[INPUT] {}".format(txt))
+pprint(arr)
+res = sentence_mean(arr)
+pprint(res)
 
 # from paper
 """
