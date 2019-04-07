@@ -4,20 +4,26 @@
 {% block content %}
 <!--/ Intro Skew Star /-->
   
-  <div id="home" class="intro route bg-image" style="background-image: url('{% static 'jobber/img/intro-bg.jpg' %}')">
+
+  {% if danger == 'unsafe' %}
+  <div id="home" class="intro route bg-image" style="background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);">
+  {% else %}
+  <div id="home" class="intro route bg-image" style="background-image: linear-gradient(to top, #96fbc4 0%, #f9f586 100%);">
+  {% endif %}
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
           <p class="display-6 color-d">{{job}}</p>
-          <p class="intro-subtitle"><span class="text-slider-items">Your job is {{danger}}</span><strong class="text-slider"></strong></p>
           {% if danger == 'unsafe' %}
+          <p class="intro-subtitle">You are at risk</p>
           <a class="mr-2 textcolor links" href="{% url 'find' %}">
           <button type="button" class="btn btn-success">
           FIND NEW JOB
           </button>
           </a>
           {% else %}
+          <p class="intro-subtitle">Your job will not be automated in the nearest future</p>
           <a class="mr-2 textcolor links" href="{% url 'jobber-home' %}">
           <button type="button" class="btn btn-success">
           BACK TO HOME

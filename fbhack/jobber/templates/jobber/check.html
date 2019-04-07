@@ -4,25 +4,25 @@
 {% block content %}
 <!--/ Intro Skew Star /-->
   
-  <div id="home" class="intro route bg-image" style="background-image: url('{% static 'jobber/img/intro-bg.jpg' %}')">
+  <div id="home" class="intro route bg-image" style="background-image: url('{% static 'jobber/img/bg2.gif' %}')">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <p class="intro-subtitle"><span class="text-slider-items">Please answer those questions{{danger}}</span><strong class="text-slider"></strong></p>
+          <p class="intro-subtitle">Please answer those questions</p>
           <form method="POST"> 
           {% csrf_token %}
           <div class="form-group">
             <label for="area1">How do you feel?</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="job0"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" name="job0"></textarea>
           </div>
           <div class="form-group">
             <label for="area2">What is your experience?</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="job1"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" name="job1"></textarea>
           </div>
           <div class="form-group">
             <label for="area3">How do you spent free time?</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="job2"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" name="job2"></textarea>
           </div>
            <div class="form-group">
                 <button class="btn btn-outline-info" type="submit">Submit</button>

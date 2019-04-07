@@ -8,7 +8,7 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import requests
 from bs4 import BeautifulSoup
-
+from yt_recommender import youtube_search
 
 def home(request):
     context = {}
@@ -35,7 +35,7 @@ def check_job(request, context):
 def get_job_from_tags(text_to_analize):
     # v1 = sentence_mean(text_to_analize)
     # return l1_score(v1, ref)
-    return "Chef"
+    return "Software Developer"
 
 def find_job(request):
     if request.method == 'POST':
@@ -76,7 +76,7 @@ def get_jobs_from_quora(job):
     for m in x[:6]:
         links.append(f"https://www.quora.com{m.find('a', class_='question_link').get('href')}")
     data = []
-    for link in links[:4]:
+    for link in links[:6]:
         soup = BeautifulSoup(
             requests.get(
                 link,
@@ -93,6 +93,7 @@ def get_jobs_from_quora(job):
         for t in content:
             text_togheter += f' {t.text}'
         data.append({
+            'type': 'quora',
             'link': link,
             'title': title,
             'content': text_togheter
@@ -101,10 +102,17 @@ def get_jobs_from_quora(job):
 
 
 def recommend_job(request, future_job):
-    data = get_jobs_from_quora(future_job)
+    data_yt = youtube_search(future_job)[1][:6]
+    data_quora = get_jobs_from_quora(future_job)
+    data_all = []
+    for x,y in zip(data_yt, data_quora):
+        data_all.append(x)
+        data_all.append(y)
+
     context = {
         'job': future_job,
-        'recommendation': data
+        'data': data_all,
+        
     }
     # {{context}}
     # {{job}}

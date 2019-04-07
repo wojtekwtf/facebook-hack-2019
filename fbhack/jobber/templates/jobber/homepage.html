@@ -4,18 +4,22 @@
 {% block content %}
 <!--/ Intro Skew Star /-->
   
-  <div id="home" class="intro route bg-image" style="background-image: url('{% static 'jobber/img/intro-bg.jpg' %}')">
+  <div id="home" class="intro route bg-image" style="background-image: url('{% static 'jobber/img/bg2.gif' %}')">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">We help find</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">New jobs,Safety, Future</span><strong class="text-slider"></strong></p>
+          <h1 class="intro-title mb-4">Prepare for the automated future</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">Find new job, Educate, Improve your life</span><strong class="text-slider"></strong></p>
           <form method="POST">
             {% csrf_token %}
             <fieldset class="form-group">
-                <input id="job" type="text" name="job" maxlength="100" required>
+                <input placeholder="Enter your current profession below" id="job" type="text" name="job" maxlength="100" style="    box-shadow: 0 2px 3px rgba(0,0,0,0.56);
+    border: 1px solid rgba(0,0,0,0.15);
+    font-size: 22pt;
+    width: 70%;
+    padding: 0.2em;" required>
                 {{ form|crispy }}
             </fieldset>
             <div class="form-group">
