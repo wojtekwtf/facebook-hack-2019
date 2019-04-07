@@ -33,8 +33,8 @@ def youtube_search(q, max_results=50,order="relevance", token=None, location=Non
       videos.append({
         'type':'yt',
         'title': snippet['title'],
-        'description': snippet['description'],
-        'url': f"https://www.youtube.com/watch?v={url}",
+        'content': snippet['description'],
+        'link': f"https://www.youtube.com/watch?v={url}",
         'img': snippet['thumbnails']['default']['url']
       })
   try:
