@@ -31,9 +31,11 @@ def youtube_search(q, max_results=50,order="relevance", token=None, location=Non
       snippet = search_result['snippet']
       url = search_result['id']['videoId']
       videos.append({
+        'type':'yt',
         'title': snippet['title'],
         'description': snippet['description'],
         'url': f"https://www.youtube.com/watch?v={url}",
+        'img': snippet['thumbnails']['default']['url']
       })
   try:
       nexttok = search_response["nextPageToken"]

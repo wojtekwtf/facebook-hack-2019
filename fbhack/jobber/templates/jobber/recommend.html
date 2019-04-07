@@ -2,17 +2,93 @@
 {% load crispy_forms_tags %}
 {% load static %}
 {% block content %}
+
+
+
+<style>
+.work-img img {width:100%;}
+blockquote { border-left: 3px solid #000; }
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.intro .overlay-itro {
+  background: linear-gradient(to bottom, #0f2027, #203a43, rgba(0,0,0,0));
+}
+</style>
+
 <!--/ Intro Skew Star /-->
-  
-  <div id="home" class="intro route bg-image" style="background-image: url('{% static 'jobber/img/intro-bg.jpg' %}')">
+{% if job == "Therapist" %}
+  <div id="home" class="intro route bg-image clearfix" style="background-image: url('{% static 'jobber/img/therapy.jpg' %}')">
+{% elif job == "Software Developer" %}
+    <div id="home" class="intro route bg-image clearfix" style="background-image: url('{% static 'jobber/img/dev.jpg' %}')">
+{% elif job == "Chef" %}
+    <div id="home" class="intro route bg-image clearfix" style="background-image: url('{% static 'jobber/img/chef.jpg' %}')">
+{% elif job == "Sales Engineer" %}
+    <div id="home" class="intro route bg-image clearfix" style="background-image: url('{% static 'jobber/img/sales.jpg' %}')">
+{% elif job == "Personal trainer" %}
+    <div id="home" class="intro route bg-image clearfix" style="background-image: url('{% static 'jobber/img/trainer.jpg' %}')">
+{% endif %}
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">Your future job is {{job}}</h1>
-          AND HERE IS YOUR PATH...
           
+
+  <section id="work" class="portfolio-mf sect-pt4 route mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              <h2 class="intro-title mb-4">Your future job is</h2>
+              <h1 class="intro-title mb-4">{{job}}</h1>
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+      {% for job_item in data %}
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{{ job_item.url }}" >
+          {% if job_item.type == 'yt' %}
+              <div class="work-img">
+                <img src="{{ job_item.img }}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="p-4">
+                    <h2 class="w-title">{{job_item.title|truncatechars:100}}</h2>
+                  </div>
+                </div>
+              </div>
+          {% else %}
+              <div class="work-content">
+                <div class="row">
+                  <div class="p-4">
+                    <h2 class="w-title">{{job_item.title|truncatechars:100}}</h2>
+                   <blockquote>{{job_item.content|truncatechars:100}}</blockquote>
+                  </div>
+                </div>
+              </div>
+          {% endif %}
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+               
+      </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->
+
         </div>
       </div>
     </div>
