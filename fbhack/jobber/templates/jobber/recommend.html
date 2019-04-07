@@ -19,6 +19,11 @@ blockquote { border-left: 3px solid #000; }
 .intro .overlay-itro {
   background: linear-gradient(to bottom, #0f2027, #203a43, rgba(0,0,0,0));
 }
+
+.grey-screen {
+  background: 
+}
+
 </style>
 
 <!--/ Intro Skew Star /-->
@@ -74,7 +79,8 @@ blockquote { border-left: 3px solid #000; }
                 <div class="row">
                   <div class="p-4">
                     <h2 class="w-title">{{job_item.title|truncatechars:100}}</h2>
-                   <blockquote>{{job_item.content|truncatechars:100}}</blockquote>
+                   <blockquote>{{job_item.content|truncatechars:150}}</blockquote>
+                   <p>Quora</p>
                   </div>
                 </div>
               </div>

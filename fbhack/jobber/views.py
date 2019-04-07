@@ -60,23 +60,10 @@ def get_jobs_from_quora(job):
     }
 
     job_name = job.replace(' ', '+')
-    link = f'https://www.quora.com/search?q=how+to+become+{job_name}'
-
-    soup = BeautifulSoup(
-        requests.get(
-            link,
-            timeout=4,
-            headers=headers
-        ).text,
-        'html.parser'
-    )
-
-    x = soup.find_all('div', class_='pagedlist_item')
-    links = []
-    for m in x[:6]:
-        links.append(f"https://www.quora.com{m.find('a', class_='question_link').get('href')}")
     data = []
-    for link in links[:6]:
+    try:
+        link = f'https://www.quora.com/search?q=how+to+become+{job_name}'
+
         soup = BeautifulSoup(
             requests.get(
                 link,
@@ -85,19 +72,36 @@ def get_jobs_from_quora(job):
             ).text,
             'html.parser'
         )
-        title = soup.find('div', class_='question_text_edit').find(
-            'span', class_='ui_qtext_rendered_qtext').text
-        content = soup.find('div', class_='pagedlist_item').find('div', class_='Answer').find_all(
-            'p', class_='ui_qtext_para u-ltr u-text-align--start')
-        text_togheter = ''
-        for t in content:
-            text_togheter += f' {t.text}'
-        data.append({
-            'type': 'quora',
-            'link': link,
-            'title': title,
-            'content': text_togheter
-        })
+
+        x = soup.find_all('div', class_='pagedlist_item')
+        links = []
+        for m in x[:6]:
+            links.append(f"https://www.quora.com{m.find('a', class_='question_link').get('href')}")
+        data = []
+        for link in links[:6]:
+            soup = BeautifulSoup(
+                requests.get(
+                    link,
+                    timeout=4,
+                    headers=headers
+                ).text,
+                'html.parser'
+            )
+            title = soup.find('div', class_='question_text_edit').find(
+                'span', class_='ui_qtext_rendered_qtext').text
+            content = soup.find('div', class_='pagedlist_item').find('div', class_='Answer').find_all(
+                'p', class_='ui_qtext_para u-ltr u-text-align--start')
+            text_togheter = ''
+            for t in content:
+                text_togheter += f' {t.text}'
+            data.append({
+                'type': 'quora',
+                'link': link,
+                'title': title,
+                'content': text_togheter
+            })
+    except:
+        return data    
     return data
 
 
@@ -105,9 +109,15 @@ def recommend_job(request, future_job):
     data_yt = youtube_search(future_job)[1][:6]
     data_quora = get_jobs_from_quora(future_job)
     data_all = []
-    for x,y in zip(data_yt, data_quora):
-        data_all.append(x)
-        data_all.append(y)
+    for i in range(6):
+        try:
+            data_all.append(data_yt[i])
+        except:
+            pass
+        try:
+            data_all.append(data_quora[i])
+        except:
+            pass
 
     context = {
         'job': future_job,
