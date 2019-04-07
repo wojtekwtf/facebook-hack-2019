@@ -2,6 +2,8 @@
 {% load crispy_forms_tags %}
 {% load static %}
 {% block content %}
+
+
 <!--/ Intro Skew Star /-->
   
   <div id="home" class="intro route bg-image" style="background-image: url('{% static 'jobber/img/intro-bg.jpg' %}')">
@@ -10,9 +12,49 @@
       <div class="table-cell">
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">Your future job is {{job}}</h1>
-          AND HERE IS YOUR PATH...
           
+
+  <section id="work" class="portfolio-mf sect-pt4 route mt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              <h1 class="intro-title mb-4">Your future job is {{job}}</h1>
+            </h3>
+            <p class="subtitle-a">
+              Your path is
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+      {% for job_item in recommendation %}
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% static 'blog/img/work-1.jpg' %}" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{% static 'blog/img/work-1.jpg' %}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="p-4">
+                    <h2 class="w-title">{{job_item.title|truncatechars:100}}</h2>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+               
+      </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->
+
         </div>
       </div>
     </div>
