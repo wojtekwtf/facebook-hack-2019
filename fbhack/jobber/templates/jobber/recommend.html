@@ -35,7 +35,7 @@ blockquote { border-left: 3px solid #000; }
     <div id="home" class="intro route bg-image clearfix" style="background-image: url('{% static 'jobber/img/chef.jpg' %}')">
 {% elif job == "Sales Engineer" %}
     <div id="home" class="intro route bg-image clearfix" style="background-image: url('{% static 'jobber/img/sales.jpg' %}')">
-{% elif job == "Personal trainer" %}
+{% elif job == "Personal Trainer" %}
     <div id="home" class="intro route bg-image clearfix" style="background-image: url('{% static 'jobber/img/trainer.jpg' %}')">
 {% endif %}
     <div class="overlay-itro"></div>
@@ -62,7 +62,7 @@ blockquote { border-left: 3px solid #000; }
       {% for job_item in data %}
         <div class="col-md-4">
           <div class="work-box">
-            <a href="{{ job_item.url }}" >
+            <a href="{{ job_item.link }}" >
           {% if job_item.type == 'yt' %}
               <div class="work-img">
                 <img src="{{ job_item.img }}" alt="" class="img-fluid">
