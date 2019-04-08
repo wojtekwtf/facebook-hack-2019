@@ -62,4 +62,5 @@ def recommend_job(request, future_job):
     }
     return render(request, 'jobber/recommend.html', context)
 
-# Create your views here.
+def about(request):
+    return render(request, 'jobber/about.html')
