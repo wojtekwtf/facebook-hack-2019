@@ -1,0 +1,93 @@
+{% extends "jobber/index.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+
+<style>
+.phototeam {
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 35px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+
+</style>
+
+
+
+
+  <div id="home" class="intro route bg-image" style="background-image: url('{% static 'jobber/img/bg2.gif' %}')">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+            <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+         <h1 class="intro-title mb-4">Team</h1>
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+            <div class="col-lg-4">
+                <div class="card text-white bg-secondary mb-3">
+                <p></p>
+                <img src="{% static 'jobber/img/jakob.jpg' %}"  class="phototeam border rounded-circle" alt="Cinque Terre">
+                    <div class="card-body">
+                        <h2 style="color:white">Jakob Wolitzki</h2>
+                        <h3><a href="#">in development</a></h3>
+                        <a href="https://www.instagram.com/jakobowsky/" class="fa fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/jakob-wolitzki/" class="fa fa-linkedin"></a>
+                        <a href="https://github.com/jakobowsky" class="fa fa-github"></a>
+                    </div>
+                </div>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <div class="card text-white bg-secondary mb-3">
+                <p></p>
+                <img src="{% static 'jobber/img/ww.jpg' %}"  class="phototeam border rounded-circle" alt="Cinque Terre">
+                    <div class="card-body">
+                        <h2 style="color:white">Wojciech Kulikowski</h2>
+                        <h3><a href="https://wkulikowski.com/">wkulikowski.com</a></h3>
+                        <a href="https://www.instagram.com/wkulikowski_/" class="fa fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/wojtekkulikowski/" class="fa fa-linkedin"></a>
+                        <a href="https://github.com/wkulikowski" class="fa fa-github"></a>
+                    </div>
+                </div>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <div class="card text-white bg-secondary mb-3">
+                <p></p>
+                <img src="{% static 'jobber/img/mac.jpg' %}"  class="phototeam border rounded-circle" alt="Cinque Terre">
+                    <div class="card-body">
+                        <h2  style="color:white">Maciej Czyzewski</h2>
+                        <h3><a href="#">in development</a></h3>
+                        <a href="https://www.instagram.com/_czyzewski/" class="fa fa-instagram"></a>
+                        <a href="https://www.facebook.com/maciejanthonyczyzewski" class="fa fa-facebook"></a>
+                        <a href="https://github.com/maciejczyzewski" class="fa fa-github"></a>
+                    </div>
+                </div>
+            </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+           <!-- END
+  ================================================== -->
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+    
+{% endblock content %}

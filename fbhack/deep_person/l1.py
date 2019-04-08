@@ -9,11 +9,11 @@ ref = {
             "cOPN": [0.9, 0.1],
         },
         "Personal trainer": {
-            "cEXT": [0.9, 0.1],
-            "cNEU": [0.5, 0.5],
-            "cAGR": [0.5, 0.5],
-            "cCON": [0.9, 0.1],
-            "cOPN": [0.9, 0.1],
+            "cEXT": [0, 0],
+            "cNEU": [0, 0],
+            "cAGR": [5, 1],
+            "cCON": [1, 0],
+            "cOPN": [1, 0],
         },
         "Software Developer": {
             "cEXT": [0.1, 0.9],

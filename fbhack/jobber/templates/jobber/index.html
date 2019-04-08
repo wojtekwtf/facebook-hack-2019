@@ -10,7 +10,7 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="{% static 'jobber/img/favicon.png' %}" rel="icon">
   
   <link href="{% static 'jobber/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
@@ -31,6 +31,33 @@
   <link href="{% static 'jobber/css/style-orange.css' %}" rel="stylesheet">
 </head>
 
+<style>
+.work-img img {width:100%;}
+blockquote { border-left: 3px solid #000; }
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.intro .overlay-itro {
+  background: linear-gradient(to bottom, #0f2027, #203a43, rgba(0,0,0,0));
+}
+
+.grey-screen {
+  background: 
+}
+
+.text-reco {
+  color: white;
+}
+
+</style>
+
+
+
 <body id="page-top">
 
   <!--/ Nav Star /-->
@@ -47,7 +74,10 @@
             <a class="nav-link js-scroll active" href={% url 'jobber-home' %}>Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
+            <a class="nav-link js-scroll active" href={% url 'team' %}>Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll" href={% url 'about' %}>About</a>
           </li>
         </ul>
       </div>
