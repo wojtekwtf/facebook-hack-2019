@@ -64,3 +64,6 @@ def recommend_job(request, future_job):
 
 def about(request):
     return render(request, 'jobber/about.html')
+
+def team(request):
+    return render(request, 'jobber/team.html')

@@ -1,0 +1,60 @@
+{% extends "jobber/index.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+
+<style>
+.phototeam {
+  height: 200px;
+  width: 200px;
+}
+</style>
+
+
+
+  <div id="home" class="intro route bg-image" style="background-image: url('{% static 'jobber/img/bg2.gif' %}')">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+            <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+         <h1 class="intro-title mb-4">Team</h1>
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+            <div class="col-lg-4">
+                <img src="{% static 'jobber/img/testimonial-2.jpg' %}"  class="phototeam border rounded-circle" alt="Cinque Terre">
+                <h2>Jakob Wolitzki</h2>
+                <p>Linl do social 1</p>
+                <p>Linl do social 1</p>
+                <p>Linl do social 1</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="{% static 'jobber/img/testimonial-2.jpg' %}"  class="phototeam border rounded-circle" alt="Cinque Terre">
+                <h2>Wojciech Kulikowski</h2>
+                <p>Linl do social 1</p>
+                <p>Linl do social 1</p>
+                <p>Linl do social 1</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="{% static 'jobber/img/testimonial-2.jpg' %}"  class="phototeam border rounded-circle" alt="Cinque Terre">
+                <h2>Maciej Czyzewski</h2>
+                <p>Linl do social 1</p>
+                <p>Linl do social 1</p>
+                <p>Linl do social 1</p>
+            </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+           <!-- END
+  ================================================== -->
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+    
+{% endblock content %}
