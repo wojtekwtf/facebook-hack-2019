@@ -130,6 +130,7 @@ def sentence_mean(lsent:list):
         res = predict_for_our_models(s)
         for key in res.keys():
             darr[key] = (darr[key]+res[key])/2
+    pprint(darr)
     return darr
 
 """

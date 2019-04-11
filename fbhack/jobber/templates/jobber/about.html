@@ -1,0 +1,40 @@
+{% extends "jobber/index.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+
+  <div id="home" class="intro route bg-image" style="background-image: url('{% static 'jobber/img/bg2.gif' %}')">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="intro-title mb-4">About our project</h1>
+          <div class="card text-white bg-secondary mb-3">
+            <div class="card-body">
+                <h5 class="card-title style="color:white !important>Problem which we solved</h5>
+                <p class="card-text" style="color:white">Problem about automation future jobs taken by AI. </p>
+                <p class="card-text" style="color:white">We created web service which checks if your current job is at risk of automation for next 20 years.</p>
+                <p class="card-text" style="color:white">If the answer is yes then user goes through personality analysis based on text stream big5.</p>
+                <p class="card-text" style="color:white">Then our service propose you future and safe job. Also our app provides you with study path in order to get this job (courses, articles, videos)</p>
+            </div>
+          </div>
+          <div class="card text-white bg-secondary mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Technology stack</h5>
+                
+                <p class="card-text" style="color:white"> - Machinelearning analysis of big-5 personality testes trained on myPersonality/Cambridge Analitica datasets , we created our own model for that. </p>
+                <p class="card-text" style="color:white"> - Simulating automation of jobs for next 20 years with salaries </p>
+                <p class="card-text" style="color:white"> - Django framework for Backend and Frontend </p>
+                <p class="card-text" style="color:white"> - Postgresql database </p>
+                <p class="card-text" style="color:white"> - Youtube api </p>
+                <p class="card-text" style="color:white"> - Webscraping on Quora </p>
+                <p class="card-text" style="color:white"> - Googleappengine for deployment our app</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+{% endblock content %}
