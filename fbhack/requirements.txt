@@ -14,7 +14,7 @@ cffi==1.12.2
 chardet==3.0.4
 Click==7.0
 cryptography==2.6.1
-Django==2.1.7
+Django==2.2.13
 django-crispy-forms==1.7.2
 docutils==0.14
 gast==0.2.2
